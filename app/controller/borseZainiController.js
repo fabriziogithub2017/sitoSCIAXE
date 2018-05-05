@@ -1,7 +1,7 @@
 ﻿var app = angular.module("myapp", []).controller("borseZainiController", function ($scope) {
 
     var vm = this;
-
+    //il controllo della pagina zaini
     vm.cliccamiMail = function (oggetto) {
         document.cookie = oggetto;
         //location.href = 'MandaEmail.aspx';
