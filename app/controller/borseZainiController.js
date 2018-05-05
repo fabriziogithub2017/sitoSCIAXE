@@ -1,7 +1,7 @@
 ﻿var app = angular.module("myapp", []).controller("borseZainiController", function ($scope) {
 
     var vm = this;
-    //il controllo della pagina zaini
+    //Fabri il controllo della pagina zaini
     vm.cliccamiMail = function (oggetto) {
         document.cookie = oggetto;
         //location.href = 'MandaEmail.aspx';
@@ -14,7 +14,7 @@
     function init() {
         console.log("Initialized");
     }
-    //commento di prova
+    
     vm.categoria = [{
         'titolo': 'Zaino', 'imgSrc': '../../jmg/jmgZainiBorse/zaini.jpg', 'imgAlt': 'Zaini personalizzati',
         'caratteristiche': [
