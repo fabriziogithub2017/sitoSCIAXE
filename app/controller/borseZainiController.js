@@ -6,7 +6,7 @@
         document.cookie = oggetto;
         //location.href = 'MandaEmail.aspx';
         location.href = '../Categorie/MandaEmail.aspx';
-
+    // questo è il nuovo master
     }
 
     init();
