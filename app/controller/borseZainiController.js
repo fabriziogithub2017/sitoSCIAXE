@@ -1,0 +1,65 @@
+﻿var app = angular.module("myapp", []).controller("borseZainiController", function ($scope) {
+
+    var vm = this;
+
+    vm.cliccamiMail = function (oggetto) {
+        document.cookie = oggetto;
+        //location.href = 'MandaEmail.aspx';
+        location.href = '../Categorie/MandaEmail.aspx';
+
+    }
+
+    init();
+
+    function init() {
+        console.log("Initialized");
+    }
+
+    vm.categoria = [{
+        'titolo': 'Zaino', 'imgSrc': '../../jmg/jmgZainiBorse/zaini.jpg', 'imgAlt': 'Zaini personalizzati',
+        'caratteristiche': [
+            'tasca anteriore',
+            'spallacci e retro imbottiti',
+            'misure: cm 26,5x38x12 ca',
+            'materiale: 100 % nylon 600D',
+            'stampa a 1 colore su un lato',]
+    },
+    {
+        'titolo': 'Borsone', 'imgSrc': '../../jmg/jmgZainiBorse/borsone-sport.jpg', 'imgAlt': 'Borsone sport',
+        'caratteristiche': [
+            'per sport e viaggio',
+            'apertura superiore con doppio cursore',
+            'tasca laterale',
+            'tiralampo in tessuto',
+            'tracolla regolabile con salvaspalle',
+            'misure:cm 56x31x28 ca',
+            'materiale: 100 % nylon 600D',
+            'stampa a 1 colore su un lato']
+    },
+    {
+        'titolo': 'Borsa Porta documenti', 'imgSrc': '../../jmg/jmgZainiBorse/borsa-porta-documenti.jpg', 'imgAlt': 'Borsa porta documenti',
+        'caratteristiche': [
+            '1 scomparto',
+            'interno multitasche',
+            'tracolla regolabile',
+            'doppia chiusura in plastica',
+            'misure: cm 39x30x8 ca',
+            'materiale: 100 % nylon 600D',
+            'stampa a 1 colore su un lato']
+    },
+    {
+        'titolo': 'Sacca', 'imgSrc': '../../jmg/jmgZainiBorse/sacche.jpg', 'imgAlt': 'Sacche',
+        'caratteristiche': [
+            'doppia corda di chiusura',
+            'misura:cm 33x45 ca ',
+            'materiale: 100 % nylon 210D',
+            'stampa a 1 colore su un lato']
+    },
+
+
+
+    ]
+
+
+
+})

@@ -1,0 +1,242 @@
+﻿/* immagini nella home page */
+
+.immaginiCopertina {
+    width: 100%;
+}
+
+/*animazione icona caricamento pagina*/
+.loader {
+    border: 1px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #3498db; /* Blue */
+    border-bottom: 10px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 1.5s linear infinite;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 1;
+    background-color: white;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader h2 {
+    position: relative;
+    top: 5px;
+    font-size: 25px;
+}
+
+.scuro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background-color: black;
+    z-index: 0;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.colorBlue {
+    color: blue !important;
+}
+
+.colorGreen {
+    color: green;
+}
+
+.colorRed {
+    color: red;
+}
+
+.colorYellow {
+    color: yellow;
+}
+
+.colorAzure {
+    color: #06b8ff !important;
+}
+
+.colorOrange {
+    color: #ff8606 !important;
+}
+
+.colorBlack {
+    color: black;
+}
+
+.bgColorAzure {
+    background-color: #06b8ff !important;
+}
+
+.bgColorOrange {
+    background-color: #ff8606 !important;
+}
+
+.bgColorBlue {
+    background-color: blue !important;
+}
+
+.bgColorGreen {
+    background-color: green !important;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.marginTop0 {
+    margin-top: 0px;
+}
+.marginTop15 {
+    margin-top: 15px !important;
+}
+
+.displayInline {
+    display: inline;
+}
+
+.tableCentered td, .tableCentered th {
+    text-align: center;
+}
+
+.borderless > tbody > tr > td,
+.borderless > tbody > tr > th,
+.borderless > tfoot > tr > td,
+.borderless > tfoot > tr > th,
+.borderless > thead > tr > td,
+.borderless > thead > tr > th {
+    border: none;
+}
+
+.trOrange {
+    background-color: #ff96001f;
+}
+
+.hoverWhite:hover {
+    background-color: white !important;
+}
+
+#menuImage > img {
+    cursor: pointer;
+    border-radius: 100%;
+    height: 24px;
+    position: relative;
+    top: -2px;
+    border: solid 1px #868e96;
+}
+
+.img-preview {
+    float: left;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    overflow: hidden;
+}
+
+.docs-data > .input-group > label {
+    justify-content: center;
+    min-width: 10rem;
+}
+
+.docs-data > .input-group > span {
+    justify-content: center;
+    min-width: 6rem;
+}
+
+.positionRelative {
+    position: relative;
+}
+
+.waiter {
+    width: 100%;
+    height: 100%;
+    background-color: #80808066;
+    position: absolute;
+    z-index: 10;
+}
+
+.waiterBody {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50%;
+    height: 12%;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.limitTextLines5 {
+    overflow: hidden;
+    /*overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;    
+   max-height: 32px;      
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;*/
+}
+
+.fadeText {
+    position: relative;
+    height: 3.6em; /* exactly three lines */
+}
+
+    .fadeText:after {
+        content: "";
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 70%;
+        height: 1.2em;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+    }
+
+.isButton {
+    cursor: pointer;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+    .isButton:hover {
+        color: #fff;
+        background-color: #286090;
+        border-color: #204d74;
+    }
+
+.listWell {
+    border: 1px solid #c3c2c2;
+    border-radius: 10px;
+    padding-bottom: 9px;
+    background-color: #f7f7f7;
+    margin: 0px;
+    margin-top:10px;
+}
+.listWell:hover {
+    background-color:#e6e6e6;
+}
+.cursorNormal {
+    cursor:context-menu !important;
+}

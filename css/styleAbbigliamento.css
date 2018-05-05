@@ -1,0 +1,238 @@
+﻿
+.breadcrumb {
+    padding: 0px 4px;
+    margin-bottom: -19px;
+    list-style: none;
+    background-color: gold;
+    color: darkcyan;
+    border-radius: 4px;
+    width: 215px;
+    margin-left: 11%;
+}
+
+    .breadcrumb > li + li:before {
+        padding: 0 5px;
+        color: darkcyan;
+        content: ">";
+    }
+
+    .breadcrumb > .active {
+        color: #777;
+    }
+
+.box1 {
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    float: left;
+}
+
+.box2 {
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    float: right;
+}
+
+.box3 {
+    width: 60%;
+    height: 20%;
+    background-color: white;
+    float: left;
+}
+
+.box4 {
+    width: 36%;
+    height: 13%;
+    background-color: yellow;
+    float: right;
+    margin: -20px auto;
+    margin-right: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: medium;
+    padding: 4px;
+}
+
+.buttonCompra {
+    color: white;
+    margin: 5px 0px 0px 76px;
+    border-radius: 4px;
+    text-align: center;
+    width: 80%;
+    height: 40%;
+    background-color: red;
+    padding: 5px;
+    font-size: 20px;
+    width: 50%;
+    height: 40%;
+}
+
+.buttonEmail {
+    width: 80%;
+    height: 40%;
+    background-color: cornflowerblue;
+    color: white;
+    margin: 5px 0px 0px 25px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.buttonManda {
+    margin: -10px;
+    font-size: 18px;
+}
+
+.buttonVuoi {
+    font-size: 18px;
+    color:navy;
+    margin: -7px 0px 0px 0px;
+}
+
+h2 {
+    font-size: large;
+    color: darkred;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 476px;
+    background-color: white;
+    display: block;
+}
+
+ul {
+    padding-left: 23px;
+}
+
+@media screen and (max-width: 1184px) {
+
+    .buttonCompra {
+        margin: 6px 0px 0px 59px;
+    }
+
+    .buttonEmail {
+        margin: 5px 0px 0px 19px;
+    }
+
+    .buttonManda {
+        margin: -5px;
+        font-size: 18px
+    }
+
+    .buttonVuoi {
+        font-size: 15px;
+        margin: -2px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 991px), (max-width: 630px) /*and (max-width: 699px) and (min-width: 520px)*/
+{
+    ul {
+        font-size: 11.25px;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    .buttonManda {
+        margin: -1px;
+        font-size: 15px
+    }
+
+    .buttonVuoi {
+        font-size: 12px;
+    }
+
+    .box4 {
+        width: 36%;
+        height: 13%;
+        position: absolute;
+        top: 60%;
+        left: 13%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .box4 {
+        width: 36%;
+        height: 13%;
+        padding: 10px;
+        position: absolute;
+        top: 89%;
+        left: 59%
+    }
+    .buttonCompra {
+        margin: 6px 0px 0px 97px;
+    }
+
+    .buttonEmail {
+        width: 70%;
+        height: 40%;
+        margin: 5px 0px 0px 50px;
+    }
+
+    .buttonManda {
+        margin: -5px;
+        font-size: 18px
+    }
+
+    .buttonVuoi {
+        font-size: 16px;
+        margin: -2px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    
+    .buttonCompra {
+        margin: -6px 0px 0px 39px;
+    }
+
+    .buttonEmail {
+        width: 90%;
+        margin: 5px 0px 0px 11px;
+    }
+
+    .buttonVuoi {
+        font-size: 14px;
+        margin: 0px 0px -5px 0px;
+    }
+
+    .buttonManda {
+        margin: -5px;
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .box4 {
+        width: 36%;
+        height: 18%;
+        position: absolute;
+        padding: 8px;
+        top: 60%;
+        left: 13%
+    }
+
+    .buttonCompra {
+        margin: -6px 0px 0px 39px;
+    }
+
+    .buttonEmail {
+        width: 90%;
+        margin: 5px 0px 0px 11px;
+    }
+
+    .buttonVuoi {
+        font-size: 12px;
+        margin: 0px 0px -5px 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    ul {
+        font-size: 12px;
+    }
+}
