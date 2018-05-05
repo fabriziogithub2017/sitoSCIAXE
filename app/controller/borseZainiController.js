@@ -14,7 +14,7 @@
     function init() {
         console.log("Initialized");
     }
-
+    //commento di prova
     vm.categoria = [{
         'titolo': 'Zaino', 'imgSrc': '../../jmg/jmgZainiBorse/zaini.jpg', 'imgAlt': 'Zaini personalizzati',
         'caratteristiche': [
