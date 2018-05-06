@@ -17,10 +17,16 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
 
     <!-- CSS personalizzato-->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styleIndex.css" rel="stylesheet">
+
+    <!--Main scripts-->
+    <script src="../app/view/assets/lib/angular/angular.min.js"></script>
+
+    <!--Controllers-->
+    <script src="../app/controller/indexController.js"></script>
 </head>
 
-<body>
+<body ng-app="myapp" ng-controller="indexController as vm">
     <header>
 
         <!-- Navigation -->
@@ -132,122 +138,19 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-6 col-lg-3 col-md-6">
+                    <div class="col-sm-6 col-lg-3 col-md-6" ng-repeat="y in vm.HomePage">
                         <div class="thumbnail">
-                            <a href="../Categorie/Timbri-datari.html">
-                                <img src="jmg/immaginiVetrina/Timbri e datari.jpg" alt="timbri e datari">
+                            <a href="{{y.ahref}}">
+                                <img src="{{y.imgSrc}}" alt="{{y.imgAlt}}">
                                 <div class="caption">
                                     <div class="prezzoVetrinaIva">
-                                        <!--ORIGINALE <div class="pull-righta">da € 2,50 </div>-->
-                                        <div class="prezzoVetrina">da € 2,50</div>
+                                        <div class="prezzoVetrina">{{y.prezzoVetrina}}</div>
                                         <div class="cadIva"> cad. +iva</div>
                                     </div>
-                                    <div class="titolo">
-                                        <a href="#">Timbri autoinchiostrati e datari</a>
-                                    </div>
-                                    <p>
-                                        Timbri autoinchiostrati. Datari automatici e manuali. Tamponi a più colori.
-                                    </p>
+                                    <div class="titolo"><h2>{{y.titolo}}</h2></div>
+                                    <p>{{y.descrizione}}</p>
                                 </div>
                             </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 col-md-6">
-                        <div class="thumbnail">
-                            <a href="../Categorie/Timbri-datari.html">
-                                <img src="jmg/immaginiVetrina/shopper cotone.jpg" alt="shopper in cotone personalizzati">
-                                <div class="caption">
-                                    <div class="prezzoVetrinaIva">
-                                        <!--ORIGINALE <div class="pull-righta">da € 2,50 </div>-->
-                                        <div class="prezzoVetrina">da € 2,50</div>
-                                        <div class="cadIva"> cad. +iva</div>
-                                    </div>
-                                    <div class="titolo">
-                                        <a href="#">Shoppers in cotone</a>
-                                    </div>
-                                    <p>Shopper in cotone naturale con manici colorati.F.to 40 x 30 cm. Personalizzati a 1 colore</p>
-                                </div>
-                            </a>
-</div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 col-md-6">
-                        <div class="thumbnail">
-                            <img src="jmg/immaginiVetrina/block notes.jpg" alt="block notes personalizzati">
-                            <div class="caption">
-                                <div class="prezzoVetrinaIva">
-                                    <!--ORIGINALE <div class="pull-righta">da € 2,50 </div>-->
-                                    <div class="prezzoVetrina">da € 2,50</div>
-                                    <div class="cadIva"> cad. +iva</div>
-                                </div>
-                                <div class="titolo">
-                                    <a href="#">Bracciali in silicone</a>
-                                </div>
-                                <p>Bracciali in silicone personalizzati a 1 colore. Vasta disponibilità di colorazioni. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 col-md-6">
-                        <div class="thumbnail">
-                            <img src="jmg/immaginiVetrina/gilet classe2.jpg" alt="gilet classe 2">
-                            <div class="caption">
-                                <div class="prezzoVetrinaIva">
-                                    <!--ORIGINALE <div class="pull-righta">da € 2,50 </div>-->
-                                    <div class="prezzoVetrina">da € 2,50</div>
-                                    <div class="cadIva"> cad. +iva</div>
-                                </div>
-                                <div class="titolo">
-                                    <a href="#">Penne personalizzate</a>
-                                </div>
-                                <p>Penne promozionali personalizzate con logo e cleam aziendale</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 col-md-6">
-                        <div class="thumbnail">
-                            <img src="jmg/immaginiVetrina/giubbotto da lavoro.jpg" alt="giubbotto da lavoro">
-                            <div class="caption">
-                                <div class="prezzoVetrinaIva">
-                                    <!--ORIGINALE <div class="pull-righta">da € 2,50 </div>-->
-                                    <div class="prezzoVetrina">da € 2,50</div>
-                                    <div class="cadIva"> cad. +iva</div>
-                                </div>
-                                <div class="titolo">
-                                    <a href="#">Fourth Product</a>
-                                </div>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 col-md-6">
-                        <div class="thumbnail">
-                            <img src="jmg/immaginiVetrina/softshell.jpg" alt="giubbotto softshell">
-                            <div class="caption">
-                                <div class="prezzoVetrinaIva">
-                                    <!--ORIGINALE <div class="pull-righta">da € 2,50 </div>-->
-                                    <div class="prezzoVetrina">da € 2,50</div>
-                                    <div class="cadIva"> cad. +iva</div>
-                                </div>
-                                <div class="titolo">
-                                    <a href="#">Fifth Product</a>
-                                </div>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 col-md-6">
-                        <div class="thumbnail">
-                            <img src="jmg/immaginiVetrina/pantaloni da lavoro.jpg" alt="pantaloni da lavoro">
-                            <div class="caption">
-                                <div class="prezzoVetrinaIva">
-                                    <!--ORIGINALE <div class="pull-righta">da € 2,50 </div>-->
-                                    <div class="prezzoVetrina">da € 2,50</div>
-                                    <div class="cadIva"> cad. +iva</div>
-                                </div>
-                                <div class="titolo">
-                                    <a href="#">Fifth Product</a>
-                                </div>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3 col-md-6">
