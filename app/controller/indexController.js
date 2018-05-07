@@ -54,19 +54,59 @@
         'prezzoVetrina': 'da € 35',
         'titolo': 'Giubbotto in softshell',
         'descrizione': 'Colori blu,rosso,grigio,nero, bianco, taglie S - M - L - XL - XXL, interno in pile, cappuccio, multi tasche. Personalizzabili davanti e dietro'
-        },
+    },
 
-        {
-            'ahref': '../Categorie/Abbigliamento-aziendale-da-lavoro.html',
-            'imgSrc': '../../jmg/immaginiVetrina/pantaloni da lavoro.jpg', 'imgAlt': 'pantaloni da lavoro',
-            'prezzoVetrina': 'da € 28',
-            'titolo': 'Pantaloni da lavoro',
-            'descrizione': 'Tessuto cotone/poliestere colore grigio/nero, taglie S - M - L - XL - XXL - 3XL, multi tasche. Personalizzabili su tascone laterale'
-        },
+    {
+        'ahref': '../Categorie/Abbigliamento-aziendale-da-lavoro.html',
+        'imgSrc': '../../jmg/immaginiVetrina/pantaloni da lavoro.jpg', 'imgAlt': 'pantaloni da lavoro',
+        'prezzoVetrina': 'da € 28',
+        'titolo': 'Pantaloni da lavoro',
+        'descrizione': 'Tessuto cotone/poliestere colore grigio/nero, taglie S - M - L - XL - XXL - 3XL, multi tasche. Personalizzabili su tascone laterale'
+    },
+
+    {
+        'ahref': '../Categorie/Gadget-personalizzati.html',
+        'imgSrc': '../../jmg/immaginiVetrina/portachiavi.jpg', 'imgAlt': 'porta chiavi personalizzati',
+        'prezzoVetrina': 'da € 1,80',
+        'titolo': 'Portachiavi in alluminio',
+        'descrizione': 'Portachiavi in alluminio, incisione a laser personalizzata del tuo logo, dimensioni: 2, 6 x 9 cm. Peso: solo 16 gr'
+    },
+
+    {
+        'ahref': '../Categorie/Penne-personalizzate.html',
+        'imgSrc': '../../jmg/immaginiVetrina/penne biro.jpg', 'imgAlt': 'penne personalizzate',
+        'prezzoVetrina': 'da € 0,30',
+        'titolo': 'Penna biro',
+        'descrizione': 'Penna biro con refil nero, personalizzazione a 1 colore sul fusto.'
+    },
+
+    {
+        'ahref': '../Categorie/Borse-Zaini-personalizzati.html',
+        'imgSrc': '../../jmg/immaginiVetrina/sacche economiche.jpg', 'imgAlt': 'sacche personalizzate',
+        'prezzoVetrina': 'da € 0,95',
+        'titolo': 'Sacca in nylon',
+        'descrizione': 'Dimensione cm 33x45 ca, doppia corda di chiusura, stampa a 1 colore su un lato'
+    },
+
+    {
+        'ahref': '../Categorie/Timbri-datari.html',
+        'imgSrc': '../../jmg/immaginiVetrina/timbro-penna.jpg', 'imgAlt': 'timbro a penna',
+        'prezzoVetrina': 'da € 20',
+        'titolo': 'Timbro penna',
+        'descrizione': 'Pratico timbro penna per ogni evenienza'
+    },
+
+    {
+        'ahref': '../Categorie/Gadget-personalizzati.html',
+        'imgSrc': '../../jmg/immaginiVetrina/bracciali in silicone.jpg', 'imgAlt': 'braccialetti in silicone personalizzati',
+        'prezzoVetrina': 'da € 0,65',
+        'titolo': 'Braccialetti in silicone',
+        'descrizione': 'Braccialetti in silicone a più colori, stampa a 1 colore inclusa'
+    },
 
 
 
-        
+
 
     ]
 
