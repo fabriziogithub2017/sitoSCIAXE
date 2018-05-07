@@ -16,40 +16,40 @@
     }
 
     vm.categoria = [{
-        'titolo': 'Penne biro', 'imgSrc': '../../jmg/jmgTimbri/datari-manuali.jpg', 'imgAlt': 'Datari manuali',
+        'imgSrc': '../../jmg/jmgTimbri/timbri-autoinchiostrati.jpg', 'imgAlt': 'Timbri autoinchiostrati',
+        'titolo': 'Timbri autoinchiostrati',
         'caratteristiche': [
-            'Portachiavi in alluminio',
-            'incisione personalizzata a laser ',
-            'Dimensioni:2,6 x 9 x 0,5 cm.',
-            'Peso: solo 16 gr',]
+            'Autoinchiostrato da 2 righe € 10 +iva',
+            'Autoinchiostrato da 3 righe € 12 +iva',
+            'Autoinchiostrato da 4 righe € 13 +iva',
+            'Autoinchiostrato da 5 righe € 15 +iva',
+            'Autoinchiostrato da 6 righe € 18 +iva',
+        ]
     },
+
     {
-        'titolo': 'Penne con puntale touch', 'imgSrc': '../../jmg/jmgTimbri/datario-con-piastra.jpg', 'imgAlt': 'Datari manuali con piastra',
+        'imgSrc': '../../jmg/jmgTimbri/timbri-manuali.jpg', 'imgAlt': 'Timbri manuali',
+        'titolo': 'Timbri manuali',
         'caratteristiche': [
-            'Portachiavi in alluminio',
-            'Personalizzato a colori ',
-            'Resinatura sul logo ',
-            'Dimensioni:2,6 x 9 x 0,5 cm.',
-            'Peso: solo 20 gr',]
+            'Timbro manuale da 2 righe € 4 +iva',
+            'Timbro manuale da 3 righe € 5 +iva',
+            'Timbro manuale da 4 righe € 6 +iva',
+            'Timbro manuale da 5 righe € 10 +iva',
+            'Timbro manuale da 6 righe € 12 +iva',
+        ]
     },
-    {
-        'titolo': 'Penne con puntale touch', 'imgSrc': '../../jmg/jmgTimbri/penna-timbro.jpg', 'imgAlt': 'Penna timbro',
-        'caratteristiche': [
-            'Portachiavi in alluminio',
-            'Personalizzato a colori ',
-            'Resinatura sul logo ',
-            'Dimensioni:2,6 x 9 x 0,5 cm.',
-            'Peso: solo 20 gr',]
+
+        {
+            'imgSrc': '../../jmg/jmgTimbri/timbro-fai-da-te.jpg', 'imgAlt': 'Timbri fai da te',
+            'titolo': 'Timbri manuali',
+            'caratteristiche': [
+                'Facile da comporre e da scomporre',
+                'Lo si può comporre senza limiti',
+                'Di varie misure',
+                'Autoinchiostrato',
+        ]
     },
-    {
-        'titolo': 'Penne con puntale touch', 'imgSrc': '../../jmg/jmgTimbri/tmbro-autoinchiostratoi.jpg', 'imgAlt': 'Timbro autoinchiostrato',
-        'caratteristiche': [
-            'Portachiavi in alluminio',
-            'Personalizzato a colori ',
-            'Resinatura sul logo ',
-            'Dimensioni:2,6 x 9 x 0,5 cm.',
-            'Peso: solo 20 gr',]
-    }
+
 
     ]
 
