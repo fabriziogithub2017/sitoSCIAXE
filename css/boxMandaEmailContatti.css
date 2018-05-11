@@ -1,0 +1,92 @@
+﻿body {
+}
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+/* Style the container */
+.container1 {
+    width: 75%;
+    height:50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 980px) {
+    input[type=submit] {
+        width: 44%;
+        height: 80px;
+        margin-top: 0;
+        font-size: 38px;
+    }
+
+    label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+        font-size: 80px;
+    }
+
+    input[type=text], select, textarea {
+        height: 91px;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 40px;
+    }
+
+    input[type="radio" i], input[type="checkbox" i] {
+        width: 50px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container1 {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container1 {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container1 {
+        width: 750px;
+    }
+}
