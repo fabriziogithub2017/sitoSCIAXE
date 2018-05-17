@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="it" itemscope="" itemtype="http://schema.org/LocalBusiness">
+<html lang="it">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Abbigliamento aziendale personalizzato da lavoro. Grafica Sciax'è</title>
@@ -26,13 +26,18 @@
     <script src="../app/controller/abbigliamentoController.js"></script>
 
 </head>
-<body itemscope itemtype="http://schema.org/Organization" ng-app="myapp" ng-controller="abbigliamentoController as vm">
+<body ng-app="myapp" ng-controller="abbigliamentoController as vm">
     <header>
-        <div class="breadcrumb" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-            Sei qui: <a href="index.html" itemprop="url" title="Titolo della Home"><span itemprop="title">Home</span></a>
-            >>  
-            <span itemprop="title">Abbigliamento da lavoro</span>
-        </div>
+        <ul class="breadcrumb">
+            <li><a href="../index.html">home</a></li>
+            <li class="active">Abbigliamento da lavoro</li>
+        </ul>
+        <script type="application/ld+json">
+            {
+            "@type": "http://schema.org/WebPage",
+            "http://schema.org/breadcrumb": "Books > Literature & Fiction > Classics"
+            }
+        </script>
 
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
