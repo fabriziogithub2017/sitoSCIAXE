@@ -28,6 +28,16 @@
 </head>
 <body ng-app="myapp" ng-controller="shopperController as vm">
     <header>
+        <ul class="breadcrumb">
+            <li><a href="../index.html">Home</a></li>
+            <li class="active"><b>Shopper</b></li>
+        </ul>
+        <script type="application/ld+json">
+            {
+            "@type": "http://schema.org/WebPage",
+            "http://schema.org/breadcrumb": "Home > Shopper personalizzati"
+            }
+        </script>
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
