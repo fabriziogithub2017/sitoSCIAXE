@@ -28,57 +28,79 @@
 </head>
 <body ng-app="myapp" ng-controller="abbigliamentoController as vm">
     <header>
-        <ul class="breadcrumb">
+        <ol class="breadcrumb">
             <li><a href="../index.html">Home</a></li>
             <li class="active"><b>Abbigliamento da lavoro</b></li>
-        </ul>
+        </ol>
         <script type="application/ld+json">
             {
             "@type": "http://schema.org/WebPage",
             "http://schema.org/breadcrumb": "Home > Abbigliamento da lavoro"
             }
+            </script>
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "CreateAction",
+            "agent": {
+            "@type": "Person",
+            "name": "Fabrizio"
+            },
+            "instrument": {
+            "@type": "Thing",
+            "name": "Serigrafia tipografia ricamo"
+            },
+            "result": {
+            "@type": "Thing",
+            "name": "stampa su penna, abbigliamento, stampa cartelloni,......"
+            },
+            "target": {
+            "@type": "EntryPoint",
+            "name": "stampa su penna, abbigliamento, stampa cartelloni,......"
+            }
+            }
         </script>
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <div class="logo">
-                        <img src="../../jmg/Marchio.png" alt="sciax'è snc" />
-                        <h1 class="navbar-text ">grafica sciax'è</h1>
-                        <div class="phone-number" alt="Telefono 0113975398"></div>
+            <!-- Navigation -->
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="logo">
+                            <img src="../../jmg/Marchio.png" alt="sciax'è snc" />
+                            <h1 class="navbar-text ">grafica sciax'è</h1>
+                            <div class="phone-number" alt="Telefono 0113975398"></div>
+                        </div>
                     </div>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="../index.html">index</a></li>
-                        <li><a href="http://www.calendaritorino.it/">shopping</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="../Categorie/Agende-2019-personalizzate.html">Agende</a></li>
-                                <li><a href="../Categorie/Block-Notes-personalizzati-a-più-colori.html">Notes</a></li>
-                                <li><a href="../Categorie/Calendari-2019-personalizzati.html">Calendari</a></li>
-                                <li><a href="../Categorie/Gadget-personalizzati.html">Gadget</a></li>
-                                <li><a href="../Categorie/Penne-personalizzate.html" ->Penne</a></li>
-                                <li><a href="../Categorie/Shopper-personalizzati.html">Shopper</a></li>
-                                <li><a href="../Categorie/Timbri-datari.html">Timbri</a></li>
-                                <li><a href="../Categorie/Borse-Zaini-personalizzati.html">Borse e zaini</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-    </header>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../index.html">index</a></li>
+                            <li><a href="http://www.calendaritorino.it/">shopping</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../Categorie/Agende-2019-personalizzate.html">Agende</a></li>
+                                    <li><a href="../Categorie/Block-Notes-personalizzati-a-più-colori.html">Notes</a></li>
+                                    <li><a href="../Categorie/Calendari-2019-personalizzati.html">Calendari</a></li>
+                                    <li><a href="../Categorie/Gadget-personalizzati.html">Gadget</a></li>
+                                    <li><a href="../Categorie/Penne-personalizzate.html" ->Penne</a></li>
+                                    <li><a href="../Categorie/Shopper-personalizzati.html">Shopper</a></li>
+                                    <li><a href="../Categorie/Timbri-datari.html">Timbri</a></li>
+                                    <li><a href="../Categorie/Borse-Zaini-personalizzati.html">Borse e zaini</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+</header>
 
     <div class="container">
         <div class="row">
