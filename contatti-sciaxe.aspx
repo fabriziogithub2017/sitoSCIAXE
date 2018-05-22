@@ -37,7 +37,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div class="logo">
-                        <img src="jmg/Marchio.png" alt="sciax'è snc" />
+                        <img src="jmg/marchio-sciaxe.png" alt="sciax'è snc" />
                         <h1 class="navbar-text ">grafica sciax'è</h1>
                         <div class="phone-number"></div>
                     </div>
@@ -122,7 +122,7 @@
             <section class="container-footer section-footer">
                 <div class="row">
                     <div class="col col-md-3 col-sm-12 ">
-                        <img src="jmg/logo.png" alt="Logo sciax'è snc'">
+                        <img src="jmg/logo-sciaxe.png" alt="Logo sciax'è snc'">
                         <p>Ci trovate in:</p>
                         <p>Strada del Portone 10 - Grugliasco (TO) Tel.  011. 397 53 98</p>
                         <a href="http://www.calendaritorino.it/" target="_blank">
