@@ -16,13 +16,16 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
 
     <!-- CSS personalizzato-->
-    <link href="css/styleIndex.css" rel="stylesheet">
+    <link href="css/styleIndex.css" rel="stylesheet" />
 
     <!--Main scripts-->
     <script src="../app/view/assets/lib/angular/angular.min.js"></script>
 
+    <link href="css/finestraPopUp.css" rel="stylesheet" />
+
     <!--Controllers-->
     <script src="../app/controller/indexController.js"></script>
+
 </head>
 
 <body ng-app="myapp" ng-controller="indexController as vm">
@@ -160,7 +163,7 @@
                         nostri prodotti con la tecnica della serigrafia,tampografia,laser e ricamo.
                     </p>
                 </div>
-                
+
 
                 <div class="row">
                     <div class="col-sm-6 col-lg-3 col-md-6" ng-repeat="y in vm.HomePage">
@@ -244,10 +247,23 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
+    <script src="js/jquery.cookie.js"></script>
+
+    <script src="js/js.cookie.js"></script>
+
     <script src="js/bootstrap.min.js"></script>
 
-    <!--javascript effetto testo scorrevole sull 'index centrale -->
+    <!--javascript testo scorrevole sull 'index centrale -->
     <script src="js/testoscorrevole.js"></script>
+
+    <!--javascript finestraCookie -->
+
+    <script src="js/cookiechoices.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function (event) {
+            cookieChoices.showCookieConsentBar('Navigando sul nostro sito accetti la privacy policy.Il sito utilizza i cookie di terze parti per profilare gli utenti', 'Chiudi ed accetta', 'La politica della Privacy', 'http://example.com');
+        });
+    </script>
 
 </body>
 
