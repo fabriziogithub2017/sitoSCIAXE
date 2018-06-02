@@ -21,8 +21,6 @@
     <!--Main scripts-->
     <script src="../app/view/assets/lib/angular/angular.min.js"></script>
 
-    <link href="css/finestraPopUp.css" rel="stylesheet" />
-
     <!--Controllers-->
     <script src="../app/controller/indexController.js"></script>
 
@@ -164,26 +162,26 @@
                     </p>
                 </div>
 
-
-                <div class="row">
-                    <div class="col-sm-6 col-lg-3 col-md-6" ng-repeat="y in vm.HomePage">
-                        <div class="thumbnail">
-                            <a href="{{y.ahref}}">
-                                <img src="{{y.imgSrc}}" alt="{{y.imgAlt}}">
-                                <div class="caption">
-                                    <div class="prezzoVetrinaIva">
-                                        <div class="prezzoVetrina">{{y.prezzoVetrina}}</div>
-                                        <div class="cadIva"> cad. +iva</div>
+               
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3 col-md-6" ng-repeat="y in vm.HomePage">
+                            <div class="thumbnail">
+                                <a href="{{y.ahref}}">
+                                    <img src="{{y.imgSrc}}" alt="{{y.imgAlt}}">
+                                    <div class="caption">
+                                        <div class="prezzoVetrinaIva">
+                                            <div class="prezzoVetrina">{{y.prezzoVetrina}}</div>
+                                            <div class="cadIva"> cad. +iva</div>
+                                        </div>
+                                        <div class="titolo"><h2>{{y.titolo}}</h2></div>
+                                        <p>{{y.descrizione}}</p>
                                     </div>
-                                    <div class="titolo"><h2>{{y.titolo}}</h2></div>
-                                    <p>{{y.descrizione}}</p>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
     <!-- /.container -->
 
@@ -255,15 +253,6 @@
 
     <!--javascript testo scorrevole sull 'index centrale -->
     <script src="js/testoscorrevole.js"></script>
-
-    <!--javascript finestraCookie -->
-
-    <script src="js/cookiechoices.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function (event) {
-            cookieChoices.showCookieConsentBar('Navigando sul nostro sito accetti la privacy policy.Il sito utilizza i cookie di terze parti per profilare gli utenti', 'Chiudi ed accetta', 'La politica della Privacy', 'http://example.com');
-        });
-    </script>
 
 </body>
 
