@@ -25,6 +25,9 @@
     <!--Controllers-->
     <script src="../app/controller/abbigliamentoController.js"></script>
 
+    <!--banner Consenso dei Cookies-->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+
 </head>
 <body ng-app="myapp" ng-controller="abbigliamentoController as vm">
     <header>
@@ -91,6 +94,30 @@
             }
             }
         </script>
+
+        <!-- script banner consenso cookie -->
+        <script>
+            window.addEventListener("load", function () {
+                window.cookieconsent.initialise({
+                    "palette": {
+                        "popup": {
+                            "background": "#237afc"
+                        },
+                        "button": {
+                            "background": "#fff",
+                            "text": "#237afc"
+                        }
+                    },
+                    "content": {
+                        "message": "Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di cookie necessari al funzionamento ed utili alle finalità illustrate nella cookie policy. Se vuoi saperne di più o negare il consenso a tutti o ad alcuni cookie, consulta la cookie policy. Acconsenti all’uso dei cookie.",
+                        "dismiss": "Acconsenti",
+                        "link": "leggi la policy",
+                        "href": "/Informativa-Policy.html"
+                    }
+                })
+            });
+        </script>
+
 
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -280,6 +307,10 @@
     <script src="../js/jquery.js"></script>
 
     <script src="../js/bootstrap.min.js"></script>
+
+    <!--javascript Consenso dei Cookies-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+
 
 </body>
 </html>
