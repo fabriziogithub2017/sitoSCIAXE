@@ -25,18 +25,70 @@
     <!--Controllers-->
     <script src="../app/controller/calendariController.js"></script>
 
+    <!--banner Consenso dei Cookies-->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+
 </head>
 <body ng-app="myapp" ng-controller="calendariController as vm">
     <header>
+        <!-- Breadcrumb e schema org Web page -->
         <ol class="breadcrumb">
             <li><a href="../index.html">Home</a></li>
             <li class="active"><b>Calendari 2019</b></li>
         </ol>
         <script type="application/ld+json">
             {
-            "@type": "http://schema.org/WebPage",
-            "http://schema.org/breadcrumb": "Home > Calendari 2019 personalizzati"
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            "breadcrumb": "Home > Calendari 2019",
+            "image":"../logo-sciaxe.png",
+            "name": "logo aziendale sciax'è snc"
             }
+        </script>
+
+        <!-- Schema.org Product -->
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org/",
+            "@type": "Product",
+            "name": "Calendari 2019 personalizzati",
+            "image": [
+            "https://sciaxe.it/jmg/jmgCalendari/calendari-olandese.jpg",
+            "https://sciaxe.it/jmg/jmgCalendari/calendario-totò.jpg"
+            ],
+            "brand": {
+            "@type": "Thing",
+            "name": "Sciax'è snc"
+            },
+            "offers": {
+            "@type": "Offer",
+            "Price": "0.70",
+            "priceCurrency": "EUR"
+            }
+            }
+        </script>
+
+        <!-- script banner consenso cookie -->
+        <script>
+            window.addEventListener("load", function () {
+                window.cookieconsent.initialise({
+                    "palette": {
+                        "popup": {
+                            "background": "#e60000"
+                        },
+                        "button": {
+                            "background": "#fff",
+                            "text": "#e60000"
+                        }
+                    },
+                    "content": {
+                        "message": "Questo sito utilizza i cookie per darti una migliore navigazione sul sito. Continuando a navigare o selezionando il tasto ACCETTA, acconsenti l'utilizzo dei cookie.Se vuoi saperne di più consulta la cookie policy.",
+                        "dismiss": "ACCETTA",
+                        "link": "leggi la policy",
+                        "href": "/Informativa-Policy.html"
+                    }
+                })
+            });
         </script>
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -95,7 +147,7 @@
                 <div class="col-sm-6 col-lg-6 col-md-6" ng-repeat="y in vm.categoria">
                     <div class="thumbnail">
                         <div class="box1">
-                            <img src="{{y.imgSrc}}" alt="{{y.imgAlt}}"/>
+                            <img src="{{y.imgSrc}}" alt="{{y.imgAlt}}" />
                         </div>
                         <div class="box2">
                             <h2>{{y.titolo}}</h2>
@@ -181,6 +233,9 @@
     <script src="../js/jquery.js"></script>
 
     <script src="../js/bootstrap.min.js"></script>
+
+    <!--javascript Consenso dei Cookies-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 
 </body>
 </html>

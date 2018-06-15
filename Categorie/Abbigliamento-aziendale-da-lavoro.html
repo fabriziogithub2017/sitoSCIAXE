@@ -31,6 +31,7 @@
 </head>
 <body ng-app="myapp" ng-controller="abbigliamentoController as vm">
     <header>
+        <!-- Breadcrumb e schema org Web page -->
         <ol class="breadcrumb">
             <li><a href="../index.html">Home</a></li>
             <li class="active"><b>Abbigliamento da lavoro</b></li>
@@ -44,11 +45,13 @@
             "name": "logo aziendale sciax'è snc"
             }
         </script>
+
+        <!-- Schema.org Product -->
         <script type="application/ld+json">
             {
             "@context": "http://schema.org/",
             "@type": "Product",
-            "name": "Abbigliamento da lavoro",
+            "name": "Abbigliamento da lavoro personalizzato",
             "image": [
             "https://sciaxe.it/jmg/jmgAbbigliamento/gilet-classe2.jpg",
             "https://sciaxe.it/jmg/jmgAbbigliamento/giubbotti.jpg",
@@ -59,38 +62,10 @@
             "@type": "Thing",
             "name": "Sciax'è snc"
             },
-            "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.4",
-            "ratingCount": "89"
-            },
             "offers": {
             "@type": "Offer",
             "Price": "12.00",
             "priceCurrency": "EUR"
-            }
-            }
-        </script>
-
-        <script type="application/ld+json">
-            {
-            "@context": "http://schema.org",
-            "@type": "CreateAction",
-            "agent": {
-            "@type": "Person",
-            "name": "Fabrizio"
-            },
-            "instrument": {
-            "@type": "Thing",
-            "name": "Serigrafia tipografia ricamo"
-            },
-            "result": {
-            "@type": "Thing",
-            "name": "stampa su penna, abbigliamento, stampa cartelloni,......"
-            },
-            "target": {
-            "@type": "EntryPoint",
-            "name": "stampa su penna, abbigliamento, stampa cartelloni,......"
             }
             }
         </script>
@@ -101,16 +76,16 @@
                 window.cookieconsent.initialise({
                     "palette": {
                         "popup": {
-                            "background": "#237afc"
+                            "background": "#e60000"
                         },
                         "button": {
                             "background": "#fff",
-                            "text": "#237afc"
+                            "text": "#e60000"
                         }
                     },
                     "content": {
-                        "message": "Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di cookie necessari al funzionamento ed utili alle finalità illustrate nella cookie policy. Se vuoi saperne di più o negare il consenso a tutti o ad alcuni cookie, consulta la cookie policy. Acconsenti all’uso dei cookie.",
-                        "dismiss": "Acconsenti",
+                        "message": "Questo sito utilizza i cookie per darti una migliore navigazione sul sito. Continuando a navigare o selezionando il tasto ACCETTA, acconsenti l'utilizzo dei cookie.Se vuoi saperne di più consulta la cookie policy.",
+                        "dismiss": "ACCETTA",
                         "link": "leggi la policy",
                         "href": "/Informativa-Policy.html"
                     }

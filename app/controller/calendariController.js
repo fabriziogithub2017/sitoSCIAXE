@@ -26,7 +26,7 @@
         ]
     },
     {
-        'titolo': 'Calendario olandese', 'imgSrc': '../../jmg/jmgCalendari/calendari-olandese.jpg', 'imgAlt': 'calendario olandase',
+        'titolo': 'Calendario totò', 'imgSrc': '../../jmg/jmgCalendari/calendario-totò.jpg', 'imgAlt': 'calendario totò',
         'caratteristiche': [
             'mensile 12 fogli',
             'carta patinata 70 gr.',
@@ -36,30 +36,7 @@
             'imballo pz. 100'
         ]
     },
-    {
-        'titolo': 'Calendario olandese', 'imgSrc': '../../jmg/jmgCalendari/calendari-olandese.jpg', 'imgAlt': 'calendario olandase',
-        'caratteristiche': [
-            'mensile 12 fogli',
-            'carta patinata 70 gr.',
-            'testata termosaldata',
-            'f.to calendario cm 29x47 ca',
-            'f.to testata cm 29x9 ca',
-            'imballo pz. 100'
-        ]
-    },
-    {
-        'titolo': 'Calendario olandese', 'imgSrc': '../../jmg/jmgCalendari/calendari-olandese.jpg', 'imgAlt': 'calendario olandase',
-        'caratteristiche': [
-            'mensile 12 fogli',
-            'carta patinata 70 gr.',
-            'testata termosaldata',
-            'f.to calendario cm 29x47 ca',
-            'f.to testata cm 29x9 ca',
-            'imballo pz. 100'
-        ]
-    },
-
-
+  
 
 
     ]

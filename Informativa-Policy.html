@@ -17,7 +17,10 @@
 
     <!-- CSS personalizzato-->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/Faq-domande.css" rel="stylesheet" />
+    <link href="css/Informativa-Policy.css" rel="stylesheet" />
+
+    <!--banner Consenso dei Cookies-->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 
 </head>
 <body>
@@ -43,30 +46,68 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.html">Index</a></li>
-                        <li><a href="http://www.calendaritorino.it/">shopping</a></li>
+                        <li><a href="http://www.calendaritorino.it/" target="_blank">shopping</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="Prodotti/Abbigliamento/Abbigliamento.html">Abbigliamento</a></li>
-                                <li><a href="#">Agende</a></li>
-                                <li><a href="#">Biglietti da visita in rilievo</a></li>
-                                <li><a href="#">Calendari</a></li>
-                                <li><a href="#">Gadget</a></li>
-                                <li><a href="#">Penne</a></li>
-                                <li><a href="#">Shopper</a></li>
-                                <li><a href="#">Timbri</a></li>
+                                <li><a href="../Categorie/Abbigliamento-aziendale-da-lavoro.html">Abbigliamento</a></li>
+                                <li><a href="../Categorie/Agende-2019-personalizzate.html">Agende</a></li>
+                                <li><a href="../Categorie/Borse-Zaini-personalizzati.html">Borse e zaini</a></li>
+                                <li><a href="../Categorie/Calendari-2019-personalizzati.html">Calendari</a></li>
+                                <li><a href="../Categorie/Penne-personalizzate.html">Penne</a></li>
+                                <li><a href="../Categorie/Gadget-personalizzati.html">Gadget</a></li>
+                                <li><a href="../Categorie/Shopper-personalizzati.html">Shopper</a></li>
+                                <li><a href="../Categorie/Block-Notes-personalizzati-a-più-colori.html">Block notes</a></li>
+                                <li><a href="../Categorie/Timbri-datari.html">Timbri</a></li>
                             </ul>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
+        <!-- Breadcrumb e schema org Web page -->
+        <ol class="breadcrumb">
+            <li><a href="../index.html">Home</a></li>
+            <li class="active"><b>Cookie Policy</b></li>
+        </ol>
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            "breadcrumb": "Home > Cookie Policy",
+            "image":"../logo-sciaxe.png",
+            "name": "logo aziendale sciax'è snc"
+            }
+        </script>
+
+        <!-- script banner consenso cookie -->
+        <script>
+            window.addEventListener("load", function () {
+                window.cookieconsent.initialise({
+                    "palette": {
+                        "popup": {
+                            "background": "#e60000"
+                        },
+                        "button": {
+                            "background": "#fff",
+                            "text": "#e60000"
+                        }
+                    },
+                    "content": {
+                        "message": "Questo sito utilizza i cookie per darti una migliore navigazione sul sito. Continuando a navigare o selezionando il tasto ACCETTA, acconsenti l'utilizzo dei cookie.Se vuoi saperne di più consulta la cookie policy.",
+                        "dismiss": "ACCETTA",
+                        "link": "leggi la policy",
+                        "href": "/Informativa-Policy.html"
+                    }
+                })
+            });
+        </script>
     </header>
 
     <div class="container">
         <div class="container1">
             <div class="row">
-                <h2>Informativa estesa sui cookie – COOKIE POLICY</h2>
+                <h2>Informativa COOKIE POLICY</h2>
                 <h3>Cosa sono i cookie</h3>
                 <p>
                     I cookie sono piccoli file di testo che i siti visitati dagli Utenti inviano ai loro terminali, dove vengono
@@ -84,49 +125,89 @@
                     <strong>Cookie tecnici che non richiedono consenso:</strong><br> Cookie relativi ad attività strettamente
                     necessarie al funzionamento del sito e all’erogazione del servizio:
                 </p>
-                <ul><li><strong>wizardFilters</strong><br> Utilizzato per visualizzare la lista dei risultati della ricerca wizard
-                    (scadenza alla fine della sessione).</li><li><strong>pageFilters</strong><br> Utilizzato per memorizzare il
-                    filtro prodotti sulla pagina attuale (scadenza alla fine della sessione).</li>
-                <li><strong>productsFilters</strong><br> Utilizzato per memorizzare il filtro prodotti durante la navigazione
-                    (scadenza alla fine della sessione).</li>
-                    </ul>
+                <ul>
+                    <li>
+                        <strong>wizardFilters</strong><br> Utilizzato per visualizzare la lista dei risultati della ricerca wizard
+                        (scadenza alla fine della sessione).
+                    </li>
+                    <li>
+                        <strong>pageFilters</strong><br> Utilizzato per memorizzare il
+                        filtro prodotti sulla pagina attuale (scadenza alla fine della sessione).
+                    </li>
+                    <li>
+                        <strong>productsFilters</strong><br> Utilizzato per memorizzare il filtro prodotti durante la navigazione
+                        (scadenza alla fine della sessione).
+                    </li>
+                </ul>
                 <p><strong>Cookie relativi ad attività di salvataggio delle preferenze e ottimizzazione:</strong></p><ul>
-                <li>acceptPrivacy<br> Utilizzato per memorizzare l’accettazione della privacy (scadenza 365 giorni).</li>
-                <li>favouriteProducts<br> Utilizzato per memorizzare i prodotti favoriti dell’utente (scadenza 365 giorni).</li>
-                <li>wizardSearches<br> Utilizzato per memorizzare le ultime ricerche dell’utente utilizzando il wizard (scadenza
-                365 giorni).</li></ul>
-                <p><strong>Cookie di statistica utilizzati direttamente dal gestore del sito per raccogliere informazioni in forma
-                    aggregata:</strong></p><ul><li><strong>refererPage</strong><br> Utilizzato per recuperare informazioni dalla
-                pagina precedente (scadenza alla visualizzazione della pagina).</li></ul>
+                    <li>acceptPrivacy<br> Utilizzato per memorizzare l’accettazione della privacy (scadenza 365 giorni).</li>
+                    <li>favouriteProducts<br> Utilizzato per memorizzare i prodotti favoriti dell’utente (scadenza 365 giorni).</li>
+                    <li>
+                        wizardSearches<br> Utilizzato per memorizzare le ultime ricerche dell’utente utilizzando il wizard (scadenza
+                        365 giorni).
+                    </li>
+                </ul>
+                <p>
+                    <strong>
+                        Cookie di statistica utilizzati direttamente dal gestore del sito per raccogliere informazioni in forma
+                        aggregata:
+                    </strong>
+                </p><ul>
+                    <li>
+                        <strong>refererPage</strong><br> Utilizzato per recuperare informazioni dalla
+                        pagina precedente (scadenza alla visualizzazione della pagina).
+                    </li>
+                </ul>
                 <p><strong>Cookie per cui è richiesto il consenso</strong></p>
-                <p>Tutti i cookie diversi da quelli tecnici sopra indicati vengono installati o attivati solo a seguito del <strong>
-                    consenso espresso</strong> dall’Utente la prima volta che visita il sito. Il consenso può essere espresso in
-                maniera generale, interagendo con il banner di informativa breve presente sulla pagina di approdo del sito, secondo
-                le modalità indicate in tale banner (cliccando sul tasto OK oppure proseguendo la navigazione, anche con lo scroll
-                o attraverso un link); oppure può essere fornito o negato in maniera selettiva, secondo le modalità di seguito
-                indicate. Di questo consenso viene tenuta traccia in occasione delle visite successive. <strong>Tuttavia, l’Utente 
-                    ha sempre la possibilità di revocare in tutto o in parte il consenso già espresso.</strong></p>
-                <p><strong>Cookie di profilazione pubblicitaria gestiti direttamente dal Titolare del sito:</strong><br> Questi
-                cookie non sono utilizzati dal presente sito.</p><
+                <p>
+                    Tutti i cookie diversi da quelli tecnici sopra indicati vengono installati o attivati solo a seguito del <strong>
+                        consenso espresso
+                    </strong> dall’Utente la prima volta che visita il sito. Il consenso può essere espresso in
+                    maniera generale, interagendo con il banner di informativa breve presente sulla pagina di approdo del sito, secondo
+                    le modalità indicate in tale banner (cliccando sul tasto OK oppure proseguendo la navigazione, anche con lo scroll
+                    o attraverso un link); oppure può essere fornito o negato in maniera selettiva, secondo le modalità di seguito
+                    indicate. Di questo consenso viene tenuta traccia in occasione delle visite successive. <strong>
+                        Tuttavia, l’Utente
+                        ha sempre la possibilità di revocare in tutto o in parte il consenso già espresso.
+                    </strong>
+                </p>
+                <p>
+                    <strong>Cookie di profilazione pubblicitaria gestiti direttamente dal Titolare del sito:</strong><br> Questi
+                    cookie non sono utilizzati dal presente sito.
+                </p><
                 p><strong>Cookie gestiti da terzi:</strong></p>
-                <p>Attraverso questo sito vengono installati anche cookie gestiti da terzi. Troverà di seguito alcune indicazioni e
-                un link alla privacy policy e al modulo di consenso di ciascuna di esse. Per tutti potrà esprimere il suo consenso
-                anche proseguendo la navigazione o chiudendo questa finestra.</p>
+                <p>
+                    Attraverso questo sito vengono installati anche cookie gestiti da terzi. Troverà di seguito alcune indicazioni e
+                    un link alla privacy policy e al modulo di consenso di ciascuna di esse. Per tutti potrà esprimere il suo consenso
+                    anche proseguendo la navigazione o chiudendo questa finestra.
+                </p>
                 <p><strong>Cookie di profilazione pubblicitaria:</strong><br> Questi cookie non sono utilizzati dal presente sito.</p>
                 <p><strong>Cookie di retargeting:</strong><br> Questi cookie non sono utilizzati dal presente sito.</p>
                 <p><strong>Cookie di social network:</strong><br> Questi cookie non sono utilizzati dal presente sito.</p>
-                <p><strong>Cookie di statistica:</strong><br> Vengono utilizzati da terzi, anche in forma disaggregata, per la
-                gestione di statistiche.</p><p>Troverà di seguito il nome dei terzi che li gestiscono, e per ciascuno di essi il
-                link alla pagina nella quale potrà ricevere le informazioni sul trattamento ed esprimere il tuo consenso.</p>
-                <p><strong>GOOGLE ANALYTICS</strong><br> Accesso alle informazioni fornite da terzi:<br> Privacy Policy:
-                <a href="http://www.google.com/policies/privacy/">http://www.google.com/policies/privacy/</a><br> Cookie Policy:
-                <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage</a><br>
-                Disattivazione: <a href="https://tools.google.com/dlpage/gaoptout?hl=it">https://tools.google.com/dlpage/gaoptout?hl=it</a></p>
-                <p><strong>Ricordi che può gestire le sue preferenze sui cookie anche attraverso il browser.</strong></p><p>Se non
-                conosce il tipo e la versione di browser che sta utilizzando, clicchi su “Aiuto” nella finestra del browser in alto
-                , da cui può accedere a tutte le informazioni necessarie.</p><p>Se invece conosce il suo browser clicchi su quello 
-                che sta utilizzando per accedere alla pagina di gestione dei cookie.</p><p>Internet Explorer
-                <a href="http://windows.microsoft.com/en-us/windows-vista/block-or-allow-cookies">http://windows.microsoft.com/en-us/windows-vista/block-or-allow-cookies</a></p>
+                <p>
+                    <strong>Cookie di statistica:</strong><br> Vengono utilizzati da terzi, anche in forma disaggregata, per la
+                    gestione di statistiche.
+                </p><p>
+                    Troverà di seguito il nome dei terzi che li gestiscono, e per ciascuno di essi il
+                    link alla pagina nella quale potrà ricevere le informazioni sul trattamento ed esprimere il tuo consenso.
+                </p>
+                <p>
+                    <strong>GOOGLE ANALYTICS</strong><br> Accesso alle informazioni fornite da terzi:<br> Privacy Policy:
+                    <a href="http://www.google.com/policies/privacy/">http://www.google.com/policies/privacy/</a><br> Cookie Policy:
+                    <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage</a><br>
+                    Disattivazione: <a href="https://tools.google.com/dlpage/gaoptout?hl=it">https://tools.google.com/dlpage/gaoptout?hl=it</a>
+                </p>
+                <p><strong>Ricordi che può gestire le sue preferenze sui cookie anche attraverso il browser.</strong></p><p>
+                    Se non
+                    conosce il tipo e la versione di browser che sta utilizzando, clicchi su “Aiuto” nella finestra del browser in alto
+                    , da cui può accedere a tutte le informazioni necessarie.
+                </p><p>
+                    Se invece conosce il suo browser clicchi su quello
+                    che sta utilizzando per accedere alla pagina di gestione dei cookie.
+                </p><p>
+                    Internet Explorer
+                    <a href="http://windows.microsoft.com/en-us/windows-vista/block-or-allow-cookies">http://windows.microsoft.com/en-us/windows-vista/block-or-allow-cookies</a>
+                </p>
                 <p>Google Chrome <a href="https://support.google.com/accounts/answer/61416?hl=it">https://support.google.com/accounts/answer/61416?hl=it</a></p>
                 <p>Mozilla Firefox <a href="http://support.mozilla.org/en-US/kb/Enabling%20and%20disabling%20cookies">http://support.mozilla.org/en-US/kb/Enabling%20and%20disabling%20cookies</a></p>
                 <p>Safari <a href="http://www.apple.com/legal/privacy/">http://www.apple.com/legal/privacy/</a></p>
@@ -135,7 +216,7 @@
             </div>
         </div>
     </div>
-   
+
     <div class="container">
         <!-- Footer -->
         <footer>
@@ -193,6 +274,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!--javascript Consenso dei Cookies-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 
 </body>
 </html>

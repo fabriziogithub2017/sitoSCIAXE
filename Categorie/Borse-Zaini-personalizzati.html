@@ -25,18 +25,72 @@
     <!--Controllers-->
     <script src="../app/controller/borseZainiController.js"></script>
 
+    <!--banner Consenso dei Cookies-->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+
 </head>
 <body ng-app="myapp" ng-controller="borseZainiController as vm">
     <header>
+        <!-- Breadcrumb e schema org Web page -->
         <ol class="breadcrumb">
             <li><a href="../index.html">Home</a></li>
             <li class="active"><b>Borse e zaini</b></li>
         </ol>
         <script type="application/ld+json">
             {
-            "@type": "http://schema.org/WebPage",
-            "http://schema.org/breadcrumb": "Home > Borse e zaini personalizzati"
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            "breadcrumb": "Home > Borse e zaini",
+            "image":"../logo-sciaxe.png",
+            "name": "logo aziendale sciax'è snc"
             }
+        </script>
+
+        <!-- Schema.org Product -->
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org/",
+            "@type": "Product",
+            "name": "Borse e zaini personalizzati",
+            "image": [
+            "https://sciaxe.it/jmg/jmgZainiBorse/borsa-porta-documenti.jpg",
+            "https://sciaxe.it/jmg/jmgZainiBorse/borsone-sport.jpg",
+            "https://sciaxe.it/jmg/jmgZainiBorse/sacche.jpg",
+            "https://sciaxe.it/jmg/jmgZainiBorse/zaini.jpg"
+            ],
+            "brand": {
+            "@type": "Thing",
+            "name": "Sciax'è snc"
+            },
+            "offers": {
+            "@type": "Offer",
+            "Price": "0.95",
+            "priceCurrency": "EUR"
+            }
+            }
+        </script>
+
+        <!-- script banner consenso cookie -->
+        <script>
+            window.addEventListener("load", function () {
+                window.cookieconsent.initialise({
+                    "palette": {
+                        "popup": {
+                            "background": "#e60000"
+                        },
+                        "button": {
+                            "background": "#fff",
+                            "text": "#e60000"
+                        }
+                    },
+                    "content": {
+                        "message": "Questo sito utilizza i cookie per darti una migliore navigazione sul sito. Continuando a navigare o selezionando il tasto ACCETTA, acconsenti l'utilizzo dei cookie.Se vuoi saperne di più consulta la cookie policy.",
+                        "dismiss": "ACCETTA",
+                        "link": "leggi la policy",
+                        "href": "/Informativa-Policy.html"
+                    }
+                })
+            });
         </script>
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -181,6 +235,9 @@
     <script src="../js/jquery.js"></script>
 
     <script src="../js/bootstrap.min.js"></script>
+
+    <!--javascript Consenso dei Cookies-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 
 </body>
 </html>
