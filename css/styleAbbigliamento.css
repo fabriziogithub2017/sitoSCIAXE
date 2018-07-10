@@ -1,26 +1,4 @@
-﻿.breadcrumb {
-    padding: 0 0 0 2px;
-    margin-bottom: -1%;
-    list-style: none;
-    background-color: papayawhip;
-    color: darkcyan;
-    border-radius: 4px;
-    width: 168px;
-    height: 15px;
-    margin-left: 11%;
-    font-size: 10px;
-}
-
-    .breadcrumb > li + li:before {
-        padding: 0 5px;
-        color: darkcyan;
-        content: ">";
-    }
-
-    .breadcrumb > .active {
-        color: #777;
-    }
-
+﻿
 .box1 {
     width: 60%;
     height: 80%;
@@ -86,7 +64,7 @@
 
 .buttonVuoi {
     font-size: 18px;
-    color:navy;
+    color: navy;
     margin: -7px 0px 0px 0px;
 }
 
@@ -164,6 +142,7 @@ ul {
         top: 89%;
         left: 59%
     }
+
     .buttonCompra {
         margin: 6px 0px 0px 97px;
     }
@@ -186,7 +165,7 @@ ul {
 }
 
 @media screen and (max-width: 487px) {
-    
+
     .buttonCompra {
         margin: -6px 0px 0px 39px;
     }
