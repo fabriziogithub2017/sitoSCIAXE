@@ -24,12 +24,7 @@
 
 
                <asp:TextBox ID="TextOggetto" runat="server"></asp:TextBox><br />
-                <script>
-                    var x = document.cookie;
-                    console.log(x.toString());
-                        document.getElementById("TextOggetto").value = x;
-
-                </script>
+                
                 <label>Testo*:</label><br />
                 <asp:TextBox ID="TextTestoarea" runat="server" TextMode="MultiLine"></asp:TextBox><br />
                 <p>
@@ -42,7 +37,14 @@
                 <asp:Label ID="lblError" runat="server" Text="Attenzione! Potresti non aver compilato tutti i campi o aver commesso errori nell'inserimento della @mail" Visible="false"></asp:Label>
             </form>
         </div>
-    </div>
+    </div><script>
+                    var x = document.cookie;
+              console.log(x.toString());
+              var testo = x.toString();
+              var taglia = testo.split(";");
+                        document.getElementById("TextOggetto").value = taglia[0];
+
+                </script>
 </body>
 </html>
 
