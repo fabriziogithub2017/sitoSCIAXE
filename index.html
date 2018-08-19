@@ -32,54 +32,12 @@
 
 <body ng-app="myapp" ng-controller="indexController as vm">
     <header>
-        <script src="js/index_schema_org.js"></script>
+        <!-- Schema.org Organization-->
+        <script src="js/schemaOrg_pagine/index_schema_org.js"></script>
+
+        <!-- script banner consenso cookie-->
         <script src="js/Barra_Policy.js"></script>
-        <!-- Schema.org Organization
-    <script type="application/ld+json">
-        {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "url":"http://www.sciaxe.it/",
-        "logo": "http://www.sciaxe.it/jmg/logo-sciaxe.png",
-        "contactPoint": [{
-        "@type": "ContactPoint",
-        "telephone": "+39 0113975398",
-        "contactType": "customer service"
-        }],
-        "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Grugliasco",
-        "addressRegion": "To",
-        "streetAddress": "Strada del Potrone 10",
-        "postalCode":"10095"
-        },
-        "description": "Serigrafia e ricamo su abbigliamento aziendale.Penne e gadget personalizzati.Produzione di timbri.",
-        "name": "Sciax'è snc",
-        "telephone": "+39 0113975398"
-        }
-    </script>-->
-        <!-- script banner consenso cookie
-    <script>
-        window.addEventListener("load", function () {
-            window.cookieconsent.initialise({
-                "palette": {
-                    "popup": {
-                        "background": "#e60000"
-                    },
-                    "button": {
-                        "background": "#fff",
-                        "text": "#e60000"
-                    }
-                },
-                "content": {
-                    "message": "Questo sito utilizza i cookie per darti una migliore navigazione sul sito. Continuando a navigare o selezionando il tasto ACCETTA, acconsenti l'utilizzo dei cookie.Se vuoi saperne di più consulta la cookie policy.",
-                    "dismiss": "ACCETTA",
-                    "link": "leggi la policy",
-                    "href": "/Informativa-Policy.html"
-                }
-            })
-        });
-    </script>-->
+
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -100,7 +58,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="http://www.calendaritorino.it/" target="_blank">shopping</a></li>
+                        <!--<li><a href="http://www.calendaritorino.it/" target="_blank">shopping</a></li>-->
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti <span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -233,9 +191,9 @@
                         <img src="jmg/logo-sciaxe.png" alt="sciax'è snc'">
                         <p>Ci trovate in:</p>
                         <p>Strada del Portone 10 - Grugliasco (TO) Tel.  011. 397 53 98</p>
-                        <a href="http://www.calendaritorino.it/" target="_blank"><p>shopping online</p></a>
+                        <!--<a href="http://www.calendaritorino.it/" target="_blank"><p>shopping online</p></a>
                         <p>pagamenti accettati</p>
-                        <img src="jmg/paypal.png" alt="paypal">
+                        <img src="jmg/paypal.png" alt="paypal">-->
                     </div>
                     <div class="col col-md-3 col-sm-4 col-xs-6">
                         <h3>Prodotti</h3>
@@ -261,6 +219,7 @@
                             <li><a href="dove-siamo-sciaxe.html">Dove siamo</a></li>
                             <li><a href="contatti-sciaxe.aspx">Contatti</a></li>
                             <li><a href="Faq-Domande-frequenti.html">Faq - Domande frequenti</a></li>
+                            <li><a href="Informativa-Policy.html">Info privacy & cookie </a></li>
                         </ul>
                     </div>
                     <div class="col col-md-3 col-sm-4 col-xs-12">
@@ -272,15 +231,15 @@
     </div>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+                        <script src="js/jquery.js"></script>
 
-    <script src="js/bootstrap.min.js"></script>
+                        <script src="js/bootstrap.min.js"></script>
 
-    <!--javascript testo scorrevole sull 'index centrale -->
-    <script src="js/testoscorrevole.js"></script>
+                        <!--javascript testo scorrevole sull 'index centrale -->
+                        <script src="js/testoscorrevole.js"></script>
 
-    <!--javascript Consenso dei Cookies-->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+                        <!--javascript Consenso dei Cookies-->
+                        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 
 </body>
 

@@ -1,4 +1,5 @@
-﻿{
+﻿//Schema.org Organization
+{
     "@context": "http://schema.org",
         "@type": "Organization",
             "url": "http://www.sciaxe.it/",

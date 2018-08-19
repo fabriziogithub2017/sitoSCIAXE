@@ -46,7 +46,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.html">Index</a></li>
-                        <li><a href="http://www.calendaritorino.it/">shopping</a></li>
+                        <!--<li><a href="http://www.calendaritorino.it/">shopping</a></li>-->
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti <span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -107,7 +107,7 @@
                         <img src="../jmg/logo.png" alt="sciax'è snc'">
                         <p>Ci trovate in:</p>
                         <p>Strada del Portone 10 - Grugliasco (TO) Tel.  011. 397 53 98</p>
-                        <a href="http://www.calendaritorino.it/" target="_blank"><p>shopping online</p></a>
+                        <!--<a href="http://www.calendaritorino.it/" target="_blank"><p>shopping online</p></a>-->
                         <p>pagamenti accettati</p>
                         <img src="../jmg/paypal.png" alt="sciax'èè">
                     </div>

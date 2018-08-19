@@ -1,4 +1,4 @@
-﻿
+﻿//script banner consenso cookie
 window.addEventListener("load", function () {
     window.cookieconsent.initialise({
         "palette": {
