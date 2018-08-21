@@ -27,8 +27,8 @@
                 
                 <label>Testo*:</label><br />
                 <asp:TextBox ID="TextTestoarea" runat="server" TextMode="MultiLine"></asp:TextBox><br />
-                <p>
-                    Acconsento al <a href="privacy.asp">trattamento dei miei dati personali</a>*
+                <<p>
+                    Acconsento al <a href="../Informativa-Policy.html">trattamento dei miei dati personali</a>*
                     <asp:CheckBox ID="CheckBox1" runat="server" name="privacy" />
                 </p>
                 <br />

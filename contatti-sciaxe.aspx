@@ -163,7 +163,7 @@
                 <label>Testo*:</label><br />
                 <asp:TextBox ID="TextTestoarea" runat="server" TextMode="MultiLine"></asp:TextBox><br />
                 <p>
-                    Acconsento al <a href="privacy.asp">trattamento dei miei dati personali</a>*
+                    Acconsento al <a href="../Informativa-Policy.html">trattamento dei miei dati personali</a>*
                     <asp:CheckBox ID="CheckBox1" runat="server" name="privacy" />
                 </p>
                 <asp:Button ID="BottoneInvia" runat="server" Text="InviaEmail" OnClick="BottoneInvia_Click" />
