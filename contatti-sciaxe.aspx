@@ -103,7 +103,7 @@
                     </button>
                     <div class="logo">
                         <img src="jmg/marchio-sciaxe.png" alt="sciax'è snc" />
-                        <h1 class="navbar-text ">grafica sciax'è</h1>
+                        <h2 class="navbar-text ">grafica sciax'è</h2>
                         <div class="phone-number"></div>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
     <div class="container">
         <div class="row">
             <div class="shadow1 col-md-12">
-                <h1>Contatti</h1>
+                <h1>Sciax'è - Contatti</h1>
                 <p class="lead">
                     Sciax'è snc - Strada del Portone 10 - 10095 Grugliasco (TO) - ITALIA  (presso il CAAT)
                     Tel. e Fax  011. 397 53 98  info@sciaxe.it
