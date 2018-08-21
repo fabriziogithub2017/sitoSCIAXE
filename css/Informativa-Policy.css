@@ -14,6 +14,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 15px;
 }
 
 .go-top {
@@ -44,6 +45,15 @@
     width: 96%;
     padding: 2%;
 }
+
+.navbar-inverse {
+    background-color: #171515;
+    border-color: #171515;
+    opacity: 0.8;
+    margin-bottom: 4px;
+}
+
+
 
 /*
 p {

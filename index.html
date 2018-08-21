@@ -33,10 +33,52 @@
 <body ng-app="myapp" ng-controller="indexController as vm">
     <header>
         <!-- Schema.org Organization-->
-        <script src="js/schemaOrg_pagine/index_schema_org.js"></script>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                    "@type": "Organization",
+                        "url": "http://www.sciaxe.it/",
+                            "logo": "http://www.sciaxe.it/jmg/logo-sciaxe.png",
+                                "contactPoint": [{
+                                    "@type": "ContactPoint",
+                                    "telephone": "+39 0113975398",
+                                    "contactType": "customer service"
+                                }],
+                                    "address": {
+                    "@type": "PostalAddress",
+                        "addressLocality": "Grugliasco",
+                            "addressRegion": "To",
+                                "streetAddress": "Strada del Potrone 10",
+                                    "postalCode": "10095"
+                },
+                "description": "Serigrafia e ricamo su abbigliamento aziendale.Penne e gadget personalizzati.Produzione di timbri.",
+                    "name": "Sciax'è snc",
+                        "telephone": "+39 0113975398"
+            }
+        </script>
 
-        <!-- script banner consenso cookie-->
-        <script src="js/Barra_Policy.js"></script>
+        <!-- script banner consenso cookie -->
+        <script>
+            window.addEventListener("load", function () {
+                window.cookieconsent.initialise({
+                    "palette": {
+                        "popup": {
+                            "background": "#e60000"
+                        },
+                        "button": {
+                            "background": "#fff",
+                            "text": "#e60000"
+                        }
+                    },
+                    "content": {
+                        "message": "Questo sito utilizza i cookie per darti una migliore navigazione sul sito. Continuando a navigare o selezionando il tasto ACCETTA, acconsenti l'utilizzo dei cookie.Se vuoi saperne di più consulta la cookie policy.",
+                        "dismiss": "ACCETTA",
+                        "link": "leggi la policy",
+                        "href": "/Informativa-Policy.html"
+                    }
+                })
+            });
+        </script>
 
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -148,7 +190,6 @@
                         nostri prodotti con la tecnica della serigrafia,tampografia,laser e ricamo.
                     </p>
                 </div>
-
 
                 <div class="row">
                     <div class="col-sm-6 col-lg-3 col-md-6" ng-repeat="y in vm.HomePage">
