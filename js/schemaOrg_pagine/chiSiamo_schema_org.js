@@ -1,10 +1,10 @@
 ﻿//Schema.org Breadcrump
 {
-    "@context": "http://schema.org",
-        "@type": "WebPage",
-            "breadcrumb": "Home > Chi siamo",
-                "image": ".",
-                    "name": "logo aziendale sciax'è snc"
+    "@context"; "http://schema.org",
+        "@type"; "WebPage",
+        "breadcrumb"; "Home > Chi siamo",
+            "image"; ".",
+                    "name"; "logo aziendale sciax'è snc"
 }
 
 //Schema.org Organization
