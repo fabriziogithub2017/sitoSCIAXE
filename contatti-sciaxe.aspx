@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Serigrafia e ricamo su abbigliamento aziendale, penne e gadget.Timbri.Grafica Sciax'è</title>
+    <title>Contatti.Grafica Sciax'è</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Serigrafia e ricamo su abbigliamento aziendale, abbigliamento antinfortinistico, abbigliamento alberghiero e ristoranti, penne promozionali, portachiavi, calendari 2019, agende2019, gadget promozionali.Timbri e timbri datari" />
@@ -25,7 +25,7 @@
     <!--banner Consenso dei Cookies-->
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 
-</head>
+    </head>
 <body>
     <header>
         <!-- Breadcrumb e schema org Web page -->
