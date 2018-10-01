@@ -5,9 +5,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Informazioni prodotti</title>
-
     <link href="../css/boxMandaEmail.css" rel="stylesheet" />
-
 </head>
 <body>
 
