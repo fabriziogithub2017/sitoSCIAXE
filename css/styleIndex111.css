@@ -1,0 +1,327 @@
+body, html {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+body {
+    padding-top: 83px; /* per lo scrolling della navbar */
+    background-image: url('../jmg/Bamboo.jpg');
+    background-repeat: repeat;
+}
+
+.row {
+    margin-right: -7px;
+    margin-left: -7px;
+}
+
+.navbar-inverse {
+    background-color: #171515;
+    border-color: #171515;
+    opacity: 0.8;
+}
+
+.navbar-brand {
+    height: 80px; /*modifica dell'altezza della navbar*/
+    line-height: 50px; /*modifica la centratura dei pulsanti della navbar*/
+}
+
+.navbar-nav > li > a {
+    height: 80px; /*modifica dell'altezza della navbar*/
+    line-height: 50px; /*modifica la centratura dei pulsanti della navbar*/
+}
+
+/*modifica navbar per pulsanti a destra*/
+.navbar-nav {
+    float: right;
+}
+
+/*modifica colore del testo nella navbar*/
+.navbar-inverse .navbar-text {
+    color: gold;
+    font-size: x-large;
+    margin-top: 23px;
+    float: right;
+}
+
+/*modifica padding del logo nella navbar*/
+.logo {
+    padding-left: 10px;
+}
+
+.lead {
+    text-align: justify;
+}
+
+/*modifica cemtratura hamburger nella navbar*/
+.navbar-toggle {
+    margin-top: 23px;
+}
+
+.carousel-holder {
+    margin-bottom: 3px;
+    margin-top: 1px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    /*max-height: 300px;*/
+}
+
+/*.slide1 {
+    background-image: url('../jmg/carouselJmg/BANNERtimbri1.jpg');
+    background-repeat: no-repeat;
+    height: 283px;
+    width: 1138px;
+}*/
+
+/*@media screen and (max-width: 450px) {
+    .slide1 {
+        background-image: url('../jmg/carouselJmg/BANNERtimbri_370x150.jpg');
+        height: 150px;
+        width: 450px;
+    }
+}*/
+
+.caption {
+    height: 94px;
+    overflow: hidden;
+}
+
+    .caption h4 {
+        white-space: nowrap;
+    }
+
+.carousel-caption {
+    text-shadow: -1px 2px yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+    color: #6309b5;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    margin-bottom: 8px;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+    .thumbnail .caption-full {
+        padding: 9px;
+        color: #333;
+    }
+
+footer {
+    margin: 50px 0;
+    background-color: white;
+}
+
+.provaFooter {
+    width: 300px;
+    height: 20px;
+    color: black;
+}
+
+/*.pull-right {
+    float: right !important;
+    color: darkred;
+}
+*/
+
+.prezzoVetrinaIva {
+    width: 100%;
+    height: 23%;
+}
+
+.prezzoVetrina {
+    color: red;
+    font-size: 13px;
+    float: left;
+}
+
+.cadIva {
+    font-size: x-small;
+    float: left;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-decoration: none;
+    color: #0000FF;
+    font-size: 15px;
+    margin: 2px 0 0 0;
+}
+
+p {
+    margin: 0 0 10px;
+    font-size: 12px;
+}
+
+h2:hover {
+    text-decoration: underline;
+    color: #0080FF;
+}
+
+
+.doveSiamo {
+    margin: 40px auto;
+    padding: 2px;
+    width: 700px;
+    height: 500px;
+    background-color: #2929a3;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+#barraslogan {
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 25px;
+    position: relative; /*z-index: 555;*/
+    margin-top: 1px;
+}
+
+#leftslogan {
+    background-color: #ffcc00;
+    float: left;
+    width: 25%;
+    height: 100%;
+    color: black;
+    line-height: 27px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#rightslogan {
+    background-color: #ffcc00;
+    float: right;
+    width: 25%;
+    height: 100%;
+    color: black;
+    line-height: 27px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.phone-number {
+    background-image: url('../jmg/phone.png');
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 370px;
+    width: 280px;
+    height: 60px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .phone-number {
+        background-image: url('../jmg/phone992.png');
+        background-repeat: no-repeat;
+        display: block;
+        position: absolute;
+        top: 19px;
+        right: 319px;
+        width: 183px;
+        height: 42px;
+    }
+}
+
+@media screen and (max-width: 630px) /*and (max-width: 699px) and (min-width: 520px)*/
+{
+    #leftslogan {
+        font-size: 8px;
+        background-color: #ff0000;
+        color: white;
+    }
+
+    #rightslogan {
+        font-size: 8px;
+        background-color: #ff0000;
+        color: white;
+    }
+
+    .carousel-caption {
+        bottom: -10px;
+        text-align: center;
+        text-shadow: -1px 2px yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+        color: #6309b5;
+    }
+
+    .carousel-indicators {
+        /*display: none;*/ /* per nascondere il div */
+        bottom: -10px;
+    }
+
+    .phone-number {
+        top: 19px;
+        right: 274px;
+        width: 193px;
+        height: 42px
+    }
+}
+
+@media screen and (max-width: 630px),(max-width: 769px) /*and (max-width: 699px) and (min-width: 520px)*/
+{
+    .phone-number {
+        top: 19px;
+        right: 274px;
+        width: 193px;
+        height: 42px
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .phone-number {
+        background-image: url('../jmg/phone886.png');
+        background-repeat: no-repeat;
+        display: block;
+        position: absolute;
+        top: 47px;
+        right: 28px;
+        width: 183px;
+        height: 42px
+    }
+}
+
+#centerslogan {
+    background-color: #000000;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.titolo {
+    font-size: larger;
+}
+
+.shadow {
+    font-size: small;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.shadow1 {
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
