@@ -28,10 +28,11 @@
             '2 tasche con cerniera',
             '2 tasche posteriori con chiusura in velcro',
             'DPI 2ª categoria',
-            'conforme UNI EN 340']
+            'conforme UNI EN 340'],
+        'prezzo': 'da € 25 cad. +iva'
     },
     {
-        'titolo': 'Giubbotto', 'imgSrc': '../../jmg/jmgAbbigliamento/giubbotti.jpg', 'imgAlt': 'Giubbotto',
+        'titolo': 'Giubbotto Sottozero', 'imgSrc': '../../jmg/jmgAbbigliamento/giubbotto-da-lavoro.jpg', 'imgAlt': 'Giubbotto sottozero personalizzato',
         'caratteristiche': [
             'Tessuto: 60% Cotone, 40% Poliestere',
             'colore: arancio',
@@ -43,7 +44,8 @@
             '2 tasche con cerniera',
             '2 tasche posteriori con chiusura in velcro',
             'DPI 2ª categoria',
-            'conforme UNI EN 340']
+            'conforme UNI EN 340'],
+        'prezzo': 'da € 25 cad. +iva'
     },
     {
         'titolo': 'Gilet classe 2', 'imgSrc': '../../jmg/jmgAbbigliamento/gilet-classe2.jpg', 'imgAlt': 'Gilet giallo classe 2',
@@ -58,21 +60,23 @@
             '2 tasche con cerniera',
             '2 tasche posteriori con chiusura in velcro',
             'DPI 2ª categoria',
-            'conforme UNI EN 340']
-        },
-        {
-            'titolo': 'Giubbotto in softshell', 'imgSrc': '../../jmg/jmgAbbigliamento/giubbotto-softshell.jpg', 'imgAlt': 'Giubbotto in softshell',
-            'caratteristiche': [
-                'Tessuto: 7% Spandex, 93% Poliestere, 330g/m2',
-                'colore: blu,rosso,grigio,nero, bianco',
-                'taglie: S - M - L - XL - XXL',
-                '2 tasche laterali con cerniera',
-                'interno in pile',
-                'coulisse al cappuccio e in vita',
-                'tasca con cerniera manica sx',
-                'polsi regolabili con velcro',
-                'DPI 1ª categoria']
-        }
+            'conforme UNI EN 340'],
+        'prezzo': 'da € 25 cad. +iva'
+    },
+    {
+        'titolo': 'Giubbotto in softshell', 'imgSrc': '../../jmg/jmgAbbigliamento/giubbotto-softshell.jpg', 'imgAlt': 'Giubbotto in softshell',
+        'caratteristiche': [
+            'Tessuto: 7% Spandex, 93% Poliestere, 330g/m2',
+            'colore: blu,rosso,grigio,nero, bianco',
+            'taglie: S - M - L - XL - XXL',
+            '2 tasche laterali con cerniera',
+            'interno in pile',
+            'coulisse al cappuccio e in vita',
+            'tasca con cerniera manica sx',
+            'polsi regolabili con velcro',
+            'DPI 1ª categoria'],
+        'prezzo': 'da € 25 cad. +iva'
+    }
     ]
 
 

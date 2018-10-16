@@ -16,13 +16,14 @@
     }
     
     vm.categoria = [{
-        'titolo': 'Zaino', 'imgSrc': '../../jmg/jmgZainiBorse/zaini.jpg', 'imgAlt': 'Zaini personalizzati',
+        'titolo': 'Zaino personalizzato', 'imgSrc': '../../jmg/jmgZainiBorse/zaini-personalizzati.jpg', 'imgAlt': 'Zaini personalizzati',
         'caratteristiche': [
             'tasca anteriore',
             'spallacci e retro imbottiti',
-            'misure: cm 26,5x38x12 ca',
+            'misure: cm 26,5 x h 38 x 12 ca',
             'materiale: 100 % nylon 600D',
-            'stampa a 1 colore su un lato',]
+            'stampa a 1 colore su un lato'],
+        'prezzo': 'da € 5,90 cad. +iva'
     },
     {
         'titolo': 'Borsone', 'imgSrc': '../../jmg/jmgZainiBorse/borsone-sport.jpg', 'imgAlt': 'Borsone sport',

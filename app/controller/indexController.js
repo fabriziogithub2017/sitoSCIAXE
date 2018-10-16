@@ -75,34 +75,35 @@
 
         {
             'ahref': '../Categorie/Abbigliamento-aziendale-da-lavoro.html',
-            'imgSrc': '../../jmg/immaginiVetrina/giubbotto da lavoro.jpg', 'imgAlt': 'giubbotto da lavoro con maniche staccabili',
+            'imgSrc': '../../jmg/immaginiVetrina/giubbotto-da-lavoro.jpg', 'imgAlt': 'giubbotto da lavoro con maniche staccabili',
             'prezzoVetrina': 'da € 25',
             'titolo': 'Giubbotto con maniche staccabili',
             'descrizione': 'Tessuto cotone/poliestere colore blu, taglie S-M-L-XL-XXL-3XL-4XL, bande riflettenti. Multi tasche. Personalizzabili davanti e dietro'
         },
 
         {
-            'ahref': '../Categorie/Abbigliamento-aziendale-da-lavoro.html',
-            'imgSrc': '../../jmg/immaginiVetrina/softshell.jpg', 'imgAlt': 'giubbotto softshell',
-            'prezzoVetrina': 'da € 35',
-            'titolo': 'Giubbotto in softshell',
-            'descrizione': 'Colori blu,rosso,grigio,nero, bianco, taglie S - M - L - XL - XXL, interno in pile, cappuccio, multi tasche. Personalizzabili davanti e dietro'
-        },
-
-        {
-            'ahref': '../Categorie/Abbigliamento-aziendale-da-lavoro.html',
-            'imgSrc': '../../jmg/immaginiVetrina/pantaloni da lavoro.jpg', 'imgAlt': 'pantaloni da lavoro',
-            'prezzoVetrina': 'da € 28',
-            'titolo': 'Pantaloni da lavoro',
-            'descrizione': 'Tessuto cotone/poliestere colore grigio/nero, taglie S - M - L - XL - XXL - 3XL, multi tasche. Personalizzabili su tascone laterale'
+            'ahref': '../Categorie/Borse-Zaini-personalizzati.html',
+            'imgSrc': '../../jmg/immaginiVetrina/zainetti.jpg', 'imgAlt': 'zainetti colorati personalizzati',
+            'prezzoVetrina': 'da € 5,90',
+            'titolo': 'Zainetti personalizzati',
+            'descrizione': 'Colori blu, rosso, viola, nero, azzurro, royal, grigio, f.to 26,5 x h 38 x 12 cm.. Personalizzabili davanti a 1 colore'
         },
 
         {
             'ahref': '../Categorie/Gadget-personalizzati.html',
             'imgSrc': '../../jmg/immaginiVetrina/portachiavi.jpg', 'imgAlt': 'porta chiavi personalizzati',
-            'prezzoVetrina': 'da € 1,80',
+            'prezzoVetrina': 'da € 1,90',
             'titolo': 'Portachiavi in alluminio',
-            'descrizione': 'Portachiavi in alluminio, incisione a laser personalizzata del tuo logo, dimensioni: 2, 6 x 9 cm. Peso: solo 16 gr'
+            'descrizione': 'Portachiavi in alluminio, incisione a laser o stampa a colori del tuo logo, dimensioni: 2, 6 x 9 cm. Peso: solo 16 gr. con scatola singola'
+        },
+
+
+        {
+            'ahref': '../Categorie/Gadget-personalizzati.html',
+            'imgSrc': '../../jmg/immaginiVetrina/bracciali-in-silicone.jpg', 'imgAlt': 'braccialetti in silicone personalizzati',
+            'prezzoVetrina': 'da € 0,66',
+            'titolo': 'Braccialetti in silicone',
+            'descrizione': 'Braccialetti in silicone a più colori, stampa a 1 colore inclusa'
         },
         
         {
@@ -112,15 +113,7 @@
             'titolo': 'Timbro penna',
             'descrizione': 'Pratico timbro penna per ogni evenienza'
         },
-
-        {
-            'ahref': '../Categorie/Gadget-personalizzati.html',
-            'imgSrc': '../../jmg/immaginiVetrina/bracciali in silicone.jpg', 'imgAlt': 'braccialetti in silicone personalizzati',
-            'prezzoVetrina': 'da € 0,65',
-            'titolo': 'Braccialetti in silicone',
-            'descrizione': 'Braccialetti in silicone a più colori, stampa a 1 colore inclusa'
-        },
-
+        
         {
             'ahref': '../Categorie/Block-Notes-personalizzati-a-più-colori.html',
             'imgSrc': '../../jmg/immaginiVetrina/block notes.jpg', 'imgAlt': 'block notes personalizzati',
@@ -136,6 +129,15 @@
             'titolo': 'Timbri autoinchiostrati e datari',
             'descrizione': 'Timbri autoinchiostrati. Datari automatici e manuali. Tamponi a più colori.'
         },
+
+        {
+            'ahref': '../Categorie/Abbigliamento-aziendale-da-lavoro.html',
+            'imgSrc': '../../jmg/immaginiVetrina/pantaloni da lavoro.jpg', 'imgAlt': 'pantaloni da lavoro',
+            'prezzoVetrina': 'da € 28',
+            'titolo': 'Pantaloni da lavoro',
+            'descrizione': 'Tessuto cotone/poliestere colore grigio/nero, taglie S - M - L - XL - XXL - 3XL, multi tasche. Personalizzabili su tascone laterale'
+        },
+
 
     ]
 

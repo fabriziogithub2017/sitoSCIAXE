@@ -4,7 +4,7 @@
     height: 80%;
     background-color: white;
     float: left;
-}
+   }
 
 .box2 {
     width: 40%;
@@ -82,6 +82,7 @@ h2 {
 
 ul {
     padding-left: 23px;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 1184px) {
@@ -126,9 +127,9 @@ ul {
 
     .box4 {
         width: 36%;
-        height: 13%;
+        height: 10%;
         position: absolute;
-        top: 60%;
+        top: 72%;
         left: 13%;
     }
 }
@@ -189,7 +190,7 @@ ul {
 @media screen and (max-width: 414px) {
     .box4 {
         width: 36%;
-        height: 18%;
+        height: 13%;
         position: absolute;
         padding: 8px;
         top: 60%;

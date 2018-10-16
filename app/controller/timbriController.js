@@ -27,6 +27,17 @@
     },
 
     {
+        'imgSrc': '../../jmg/jmgTimbri/prova buttare timbri.jpg', 'imgAlt': 'Timbri manuali',
+        'titolo': 'Timbri manuali',
+        'caratteristiche': [
+            'Timbro manuale da 2 righe € 4 +iva',
+            'Timbro manuale da 3 righe € 5 +iva',
+            'Timbro manuale da 4 righe € 6 +iva',
+            'Timbro manuale da 5 righe € 10 +iva',
+            'Timbro manuale da 6 righe € 12 +iva',]
+    },
+
+    {
         'imgSrc': '../../jmg/jmgTimbri/timbri-manuali.jpg', 'imgAlt': 'Timbri manuali',
         'titolo': 'Timbri manuali',
         'caratteristiche': [
@@ -52,25 +63,25 @@
             'Datari manuali',
             'Numeratori manuali',
             'Numeratori semi automatici',]
-        },
+    },
 
-        {
-            'imgSrc': '../../jmg/jmgTimbri/penna-timbro.jpg', 'imgAlt': 'penna timbro',
-            'titolo': 'Penna timbro',
-            'caratteristiche': [
-                '2 in 1: penna con timbro',
-                'Pratico',
-                'Tascabile',]
-        },
+    {
+        'imgSrc': '../../jmg/jmgTimbri/penna-timbro.jpg', 'imgAlt': 'penna timbro',
+        'titolo': 'Penna timbro',
+        'caratteristiche': [
+            '2 in 1: penna con timbro',
+            'Pratico',
+            'Tascabile',]
+    },
 
-        {
-            'imgSrc': '../../jmg/jmgTimbri/inchiostri-per-timbri.jpg', 'imgAlt': 'inchiostri per timbri e tamponi',
-            'titolo': 'Inchiostri e tamponi per timbri',
-            'caratteristiche': [
-                'Inchiostri di diversi colori',
-                'Tamponi per timbri colop e trodat',
-                'Tamponi per timbri manuali',]
-        },
+    {
+        'imgSrc': '../../jmg/jmgTimbri/inchiostri-per-timbri.jpg', 'imgAlt': 'inchiostri per timbri e tamponi',
+        'titolo': 'Inchiostri e tamponi per timbri',
+        'caratteristiche': [
+            'Inchiostri di diversi colori',
+            'Tamponi per timbri colop e trodat',
+            'Tamponi per timbri manuali',]
+    },
 
     {
         'imgSrc': '../../jmg/jmgTimbri/timbri-per-cera-lacca.jpg', 'imgAlt': 'datari e numeratori con piastra.jpgtimbri-per-cera-lacca',
