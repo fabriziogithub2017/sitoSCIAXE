@@ -105,7 +105,15 @@
             'titolo': 'Braccialetti in silicone',
             'descrizione': 'Braccialetti in silicone a più colori, stampa a 1 colore inclusa'
         },
-        
+
+        {
+            'ahref': '../Categorie/Lanyard-personalizzati.html',
+            'imgSrc': '../../jmg/immaginiVetrina/lanyards-personalizzati.jpg', 'imgAlt': 'Lanyards personalizzati con logo fronte e retro',
+            'prezzoVetrina': 'da € 0,60',
+            'titolo': 'Lanyards personalizzati',
+            'descrizione': 'Lanyards personalizzato con il tuo logo aziendale stampato sia all interno che all esterno - Altezza 2 cm.'
+        },
+
         {
             'ahref': '../Categorie/Timbri-datari.html',
             'imgSrc': '../../jmg/immaginiVetrina/timbro-penna.jpg', 'imgAlt': 'timbro a penna',
@@ -113,7 +121,7 @@
             'titolo': 'Timbro penna',
             'descrizione': 'Pratico timbro penna per ogni evenienza'
         },
-        
+
         {
             'ahref': '../Categorie/Block-Notes-personalizzati-a-più-colori.html',
             'imgSrc': '../../jmg/immaginiVetrina/block notes.jpg', 'imgAlt': 'block notes personalizzati',
@@ -130,16 +138,6 @@
             'descrizione': 'Timbri autoinchiostrati. Datari automatici e manuali. Tamponi a più colori.'
         },
 
-        {
-            'ahref': '../Categorie/Abbigliamento-aziendale-da-lavoro.html',
-            'imgSrc': '../../jmg/immaginiVetrina/pantaloni da lavoro.jpg', 'imgAlt': 'pantaloni da lavoro',
-            'prezzoVetrina': 'da € 28',
-            'titolo': 'Pantaloni da lavoro',
-            'descrizione': 'Tessuto cotone/poliestere colore grigio/nero, taglie S - M - L - XL - XXL - 3XL, multi tasche. Personalizzabili su tascone laterale'
-        },
-
-
     ]
-
-
+    
 })
