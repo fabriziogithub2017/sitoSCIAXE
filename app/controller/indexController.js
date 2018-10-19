@@ -115,17 +115,17 @@
         },
 
         {
-            'ahref': '../Categorie/Timbri-datari.html',
-            'imgSrc': '../../jmg/immaginiVetrina/timbro-penna.jpg', 'imgAlt': 'timbro a penna',
-            'prezzoVetrina': 'da € 20',
-            'titolo': 'Timbro penna',
-            'descrizione': 'Pratico timbro penna per ogni evenienza'
+            'ahref': '../Categorie/Borse-Zaini-personalizzati.html',
+            'imgSrc': '../../jmg/immaginiVetrina/cartella-porta-documenti-personalizzata.jpg', 'imgAlt': 'cartella porta documenti personalizzata a 1 colore',
+            'prezzoVetrina': 'da € 1,60',
+            'titolo': 'Cartella porta documenti',
+            'descrizione': 'Pratica cartella porta documento in nylon, robusta in tessuto pesante'
         },
 
         {
             'ahref': '../Categorie/Block-Notes-personalizzati-a-più-colori.html',
             'imgSrc': '../../jmg/immaginiVetrina/block notes.jpg', 'imgAlt': 'block notes personalizzati',
-            'prezzoVetrina': 'da € 0,98',
+            'prezzoVetrina': 'da € 1,60',
             'titolo': 'Block notes personalizzati',
             'descrizione': 'Block notes personalizzato con il tuo logo aziendale a righe o a quadretti. Formati A4, A5, A6'
         },
