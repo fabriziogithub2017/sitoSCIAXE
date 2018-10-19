@@ -67,10 +67,10 @@
 
         {
             'ahref': '../Categorie/Penne-personalizzate.html',
-            'imgSrc': '../../jmg/immaginiVetrina/Penne economiche.jpg', 'imgAlt': 'penna a biro economica',
-            'prezzoVetrina': 'da € 0,39',
+            'imgSrc': '../../jmg/immaginiVetrina/Penne-personalizzate-a-1-colore.jpg', 'imgAlt': 'penna a biro personalizzata a 1 colore',
+            'prezzoVetrina': 'da € 0,30',
             'titolo': 'Penna a biro personalizzata',
-            'descrizione': 'Descrizione: Calendario da tavolo, 13 pagine, F.to cm 29 x 47 cm., Area di stampa: 28 x 8 cm'
+            'descrizione': 'Descrizione: Penna biro con stampa a 1 colore - Refil nero'
         },
 
         {
