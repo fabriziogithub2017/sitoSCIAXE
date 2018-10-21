@@ -38,13 +38,10 @@
             'stampa a 1 colore su un lato']
     },
     {
-        'titolo': 'Borsa Porta documenti', 'imgSrc': '../../jmg/jmgZainiBorse/borsa-porta-documenti.jpg', 'imgAlt': 'Borsa porta documenti',
+        'titolo': 'Borsa porta documenti', 'imgSrc': '../../jmg/jmgZainiBorse/cartella-porta-documenti-personalizzata.jpg', 'imgAlt': 'Borsa porta documenti',
         'caratteristiche': [
             '1 scomparto',
-            'interno multitasche',
-            'tracolla regolabile',
-            'doppia chiusura in plastica',
-            'misure: cm 39x30x8 ca',
+            'misure: cm 39x30 ca',
             'materiale: 100 % nylon 600D',
             'stampa a 1 colore su un lato']
     },
