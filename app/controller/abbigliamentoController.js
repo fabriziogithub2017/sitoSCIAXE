@@ -15,70 +15,37 @@
         console.log("Initialized");
     }
 
-    vm.categoria = [{
-        'titolo': 'Pantalone multitasche', 'imgSrc': '../../jmg/jmgAbbigliamento/pantalone-da-lavoro.jpg', 'imgAlt': 'Pantalone multitasche',
-        'caratteristiche': [
-            'Tessuto: 60% Cotone, 40% Poliestere',
-            'colore: arancio',
-            'taglie: M - L - XL - XXL',
-            'bande riflettenti 3M Scotchlite',
-            'tasca con chiusura in velcro sul petto lato destro',
-            'tasca portacellulare con chiusura in velcro',
-            '5 tasche con chiusura in velcro',
-            '2 tasche con cerniera',
-            '2 tasche posteriori con chiusura in velcro',
-            'DPI 2ª categoria',
-            'conforme UNI EN 340'],
-        'prezzo': 'da € 25 cad. +iva'
-    },
+    vm.categoria = [
     {
         'titolo': 'Giubbotto Sottozero', 'imgSrc': '../../jmg/jmgAbbigliamento/giubbotto-da-lavoro.jpg', 'imgAlt': 'Giubbotto sottozero personalizzato',
         'caratteristiche': [
-            'Tessuto: 60% Cotone, 40% Poliestere',
-            'colore: arancio',
-            'taglie: M - L - XL - XXL',
-            'bande riflettenti 3M Scotchlite',
-            'tasca con chiusura in velcro sul petto lato destro',
-            'tasca portacellulare con chiusura in velcro',
-            '5 tasche con chiusura in velcro',
+            'Tessuto: 65% Cotone, 35% Poliestere',
+            'imbottitura: 200 g/m',
+            'colore: blu',
+            'taglie: M - L - XL - XXL - XXXL',
+            'piccole bande riflettenti 3M',
+            'tasca interna lato destro',
+            'chiusura centrale con cerniera ricoperta da pattina con bottoni',
             '2 tasche con cerniera',
-            '2 tasche posteriori con chiusura in velcro',
-            'DPI 2ª categoria',
+            '2 tasche con chiusura in velcro',
+            'tasca porta cellulare + taschino porta penne',      
+            'DPI 1ª categoria',
             'conforme UNI EN 340'],
         'prezzo': 'da € 25 cad. +iva'
     },
     {
-        'titolo': 'Gilet classe 2', 'imgSrc': '../../jmg/jmgAbbigliamento/gilet-classe2.jpg', 'imgAlt': 'Gilet giallo classe 2',
+        'titolo': 'Gilet classe 2', 'imgSrc': '../../jmg/jmgAbbigliamento/gilet classe 2 personalizzato.jpg', 'imgAlt': 'Gilet giallo o arancione classe 2 personalizzato',
         'caratteristiche': [
-            'Tessuto: 60% Cotone, 40% Poliestere',
-            'colore: arancio',
-            'taglie: M - L - XL - XXL',
+            'Tessuto: 100% Poliestere',
+            'colore: arancio o giallo',
+            'taglia: unica',
             'bande riflettenti 3M Scotchlite',
-            'tasca con chiusura in velcro sul petto lato destro',
-            'tasca portacellulare con chiusura in velcro',
-            '5 tasche con chiusura in velcro',
-            '2 tasche con cerniera',
-            '2 tasche posteriori con chiusura in velcro',
+            'bordo rinforzato',
+            'chiusura con velcro',
             'DPI 2ª categoria',
-            'conforme UNI EN 340'],
-        'prezzo': 'da € 25 cad. +iva'
-    },
-    {
-        'titolo': 'Giubbotto in softshell', 'imgSrc': '../../jmg/jmgAbbigliamento/giubbotto-softshell.jpg', 'imgAlt': 'Giubbotto in softshell',
-        'caratteristiche': [
-            'Tessuto: 7% Spandex, 93% Poliestere, 330g/m2',
-            'colore: blu,rosso,grigio,nero, bianco',
-            'taglie: S - M - L - XL - XXL',
-            '2 tasche laterali con cerniera',
-            'interno in pile',
-            'coulisse al cappuccio e in vita',
-            'tasca con cerniera manica sx',
-            'polsi regolabili con velcro',
-            'DPI 1ª categoria'],
-        'prezzo': 'da € 25 cad. +iva'
+            'conforme omologato EN 471'],
+        'prezzo': 'da € 4,50 cad. +iva'
     }
     ]
-
-
-
+        
 })
