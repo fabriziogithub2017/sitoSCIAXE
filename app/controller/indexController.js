@@ -11,7 +11,7 @@
     vm.HomePage = [
         {
             'ahref': '../Categorie/Timbri-datari.html',
-            'imgSrc': '../../jmg/immaginiVetrina/Autoinchiostrato.jpg', 'imgAlt': 'buttare',
+            'imgSrc': '../../jmg/immaginiVetrina/Timbro-autoinchiostrato.jpg', 'imgAlt': 'Timbro autoinchiostrato',
             'prezzoVetrina': 'da € 13,00',
             'titolo': 'Timbro autoinchiostrato Trodat 4913',
             'descrizione': 'Timbro autoinchiostrato Trodat 4913, composto da 4/5 righe con tampone nero. A richiesta tampone blu, rosso, verde.'

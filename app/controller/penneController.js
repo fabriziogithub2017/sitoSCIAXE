@@ -26,10 +26,19 @@
             'inchiostro nero'],
         'prezzo': 'da € 0,30 cad. +iva'
     },
-               
+    {
+        'titolo': 'Penne per touch personalizzate', 'imgSrc': '../../jmg/jmgPenne/penne-con-puntale-touch.jpg', 'imgAlt': 'Penne a sfera con puntale touch personalizzate a 1 colore',
+        'caratteristiche': [
+            'gommino per touch screen',
+            'penna a sfera',
+            'meccanismo a rotazione',
+            'materiale: plastica metallizzata',
+            'Dimensioni:Ø cm 1 x h14 cm.',
+            'inchiostro nero'],
+        'prezzo': 'a € 0,70 cad. +iva'       
+    }
+
 
     ]
-
-
 
 })

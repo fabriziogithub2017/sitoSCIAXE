@@ -16,13 +16,14 @@
     }
 
     vm.categoria = [{
-        'titolo': 'Block notes', 'imgSrc': '../../jmg/jmgNotes/notes-personalizzati.jpg', 'imgAlt': 'Block notes personalizzati',
+        'titolo': 'Block notes personalizzati', 'imgSrc': '../../jmg/jmgNotes/notes-personalizzati.jpg', 'imgAlt': 'Block notes personalizzati',
         'caratteristiche': [
             'Carta uso mano 80 gr.',
             '50 fogli',
             'Incollati in testa',
-            'cartoncino sottoblocco',]
-    },
+            'cartoncino sottoblocco',
+            'personalizzati a colori']
+    }
 
 
 
