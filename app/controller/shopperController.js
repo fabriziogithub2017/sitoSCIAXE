@@ -16,39 +16,24 @@
     }
 
     vm.categoria = [{
-        'titolo': 'Penne biro', 'imgSrc': '../../jmg/jmgShopper/shopper-tnt.jpg', 'imgAlt': 'Shoppers in tnt',
+        'titolo': 'Shopper in tnt', 'imgSrc': '../../jmg/jmgShopper/shopper-in-tnt.jpg', 'imgAlt': 'Shoppers in tnt personalizzati a 1 colore',
         'caratteristiche': [
-            'Portachiavi in alluminio',
-            'incisione personalizzata a laser ',
-            'Dimensioni:2,6 x 9 x 0,5 cm.',
-            'Peso: solo 16 gr',]
+            'borsa shopping',
+            'manici lunghi ',
+            'rifiniture cucite',
+            'misure: 38 x 42 cm',
+            'materiale tnt'],
+        'prezzo': 'da € 0,60 cad. +iva'
     },
     {
-        'titolo': 'Penne con puntale touch', 'imgSrc': '../../jmg/jmgShopper/shopper-in-cotone.jpg', 'imgAlt': 'Shoppers in cotone',
+        'titolo': 'Shopper in cotone', 'imgSrc': '../../jmg/jmgShopper/shopper-in-cotone.jpg', 'imgAlt': 'Shoppers in cotone',
         'caratteristiche': [
-            'Portachiavi in alluminio',
-            'Personalizzato a colori ',
-            'Resinatura sul logo ',
-            'Dimensioni:2,6 x 9 x 0,5 cm.',
-            'Peso: solo 20 gr',]
-    },
-    {
-        'titolo': 'Penne con puntale touch', 'imgSrc': '../../jmg/jmgShopper/shopper-ripiegabili.jpg', 'imgAlt': 'Shoppers richiudibili in tnt',
-        'caratteristiche': [
-            'Portachiavi in alluminio',
-            'Personalizzato a colori ',
-            'Resinatura sul logo ',
-            'Dimensioni:2,6 x 9 x 0,5 cm.',
-            'Peso: solo 20 gr',]
-    },
-    {
-        'titolo': 'Penne con puntale touch', 'imgSrc': '../../jmg/jmgShopper/shopper-richiudibile-fragola.jpg', 'imgAlt': 'Shoppers richiudibili a forma di fragola',
-        'caratteristiche': [
-            'Portachiavi in alluminio',
-            'Personalizzato a colori ',
-            'Resinatura sul logo ',
-            'Dimensioni:2,6 x 9 x 0,5 cm.',
-            'Peso: solo 20 gr',]
+            'borsa shopping',
+            'manici lunghi con 6 colori a scelta ',
+            'rifiniture cucite',
+            'misure: 38 x 42 cm',
+            'materiale cotone'],
+        'prezzo': 'da € 0,90 cad. +iva'
     }
 
     ]

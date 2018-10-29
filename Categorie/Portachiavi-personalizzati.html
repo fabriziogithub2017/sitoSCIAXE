@@ -2,8 +2,8 @@
 <html lang="it">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Gadgets personalizzati con logo e Regali aziendali - Sciax'è</title>
-    <meta name="description" content="Gadget personalizzati con logo della tua attivita o associazione e regali aziendali. Stampati in serigrafia, incisioni a laser, ricamo">
+    <title>Portachiavi personalizzati con logo - Sciax'è</title>
+    <meta name="description" content="Portachiavi personalizzati con logo della tua attivita o associazione. Stampati in serigrafia, incisioni a laser.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Fabrizio Sciascia. Sciax'è snc.Torino">
@@ -24,7 +24,7 @@
     <script src="../app/view/assets/lib/angular/angular.min.js"></script>
 
     <!--Controllers-->
-    <script src="../app/controller/gadgetController.js"></script>
+    <script src="../app/controller/portachiaviController.js"></script>
 
     <!--banner Consenso dei Cookies-->
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
@@ -39,18 +39,18 @@
     </script>
 
 </head>
-<body ng-app="myapp" ng-controller="gadgetController as vm">
+<body ng-app="myapp" ng-controller="portachiaviController as vm">
     <header>
         <!-- Breadcrumb e schema org Web page -->
         <ol class="breadcrumb">
             <li><a href="../index.html">Home</a></li>
-            <li class="active"><b>Gadget personalizzati</b></li>
+            <li class="active"><b>Portachiavi personalizzati</b></li>
         </ol>
         <script type="application/ld+json">
             {
             "@context": "http://schema.org",
             "@type": "WebPage",
-            "breadcrumb": "Home > Gadget personalizzati",
+            "breadcrumb": "Home > Portachiavi personalizzati",
             "image":"../logo-sciaxe.png",
             "name": "logo aziendale sciax'è snc"
             }
@@ -61,10 +61,10 @@
             {
             "@context": "http://schema.org/",
             "@type": "Product",
-            "name": "Gadget personalizzati",
+            "name": "Portachiavi personalizzati",
             "image": [
-            "https://sciaxe.it/jmg/jmgGadget/portachiavi-incisione-laser.jpg",
-            "https://sciaxe.it/jmg/jmgGadget/portachiavi-logo-resinato.jpg"
+            "https://sciaxe.it/jmg/jmgPortachiavi/portachiavi-incisi-a-laser.jpg",
+            "https://sciaxe.it/jmg/jmgPortachiavi/portachiavi-con-stampa-resinate.jpg"
             ],
             "brand": {
             "@type": "Thing",
@@ -132,6 +132,8 @@
                     <li><a href="../Categorie/Penne-personalizzate.html" ->Penne</a></li>
                     <li><a href="../Categorie/Shopper-personalizzati.html">Shopper</a></li>
                     <li><a href="../Categorie/Timbri-datari.html">Timbri</a></li>
+                    <li><a href="../Categorie/Portachiavi-personalizzati.html">Portachiavi</a></li>
+                    <li><a href="../Categorie/Braccialetti-personalizzati.html">Braccialetti</a></li>
                     <li><a href="../Categorie/Block-Notes-personalizzati-a-più-colori.html">Block notes</a></li>
                 </ul>
             </li>
@@ -145,9 +147,9 @@
     <div class="container">
         <div class="row">
             <div class="shadow1 col-md-12">
-                <h1>Gadgets personalizzati e Regali aziendali</h1>
+                <h1>Portachiavi personalizzati</h1>
                 <p class="lead">
-                    Il gadget e il regalo aziendale sono importanti per distinguersi e farsi conoscere. Solitamente si scelgono articoli promozionali che possono essere utilizzati per molti mesi. Più il gadget che scegliete sarà originale, creativo e di alta qualità, più verrà  mostrato ed utilizzato dal ricevente.
+                    Il portachiave personalizzato è un gadget utile e ben apprezzato da chi lo riceve.Tutte le persone utilzzano chiavi da ordinare e da tenere ben custodite. I portachiavi si possono avere un diversi materiali, personalizzabili con diverse tecnice di stampa e quelli in metallo si incidono a laser.
                 </p>
             </div>
             <div class="row">
@@ -161,6 +163,7 @@
                             <ul>
                                 <li ng-repeat="x in y.caratteristiche">{{x}}</li>
                             </ul>
+                            <h3>{{y.prezzo}}</h3>
                         </div>
                         <div class="box3">
                             <!--<a href=http://calendaritorino.it target=”_blank”>
@@ -214,6 +217,8 @@
                             <li><a href="../Categorie/Penne-personalizzate.html" ->Penne</a></li>
                             <li><a href="../Categorie/Shopper-personalizzati.html">Shopper</a></li>
                             <li><a href="../Categorie/Timbri-datari.html">Timbri</a></li>
+                            <li><a href="../Categorie/Portachiavi-personalizzati.html">Portachiavi</a></li>
+                            <li><a href="../Categorie/Braccialetti-personalizzati.html">Braccialetti</a></li>
                             <li><a href="../Categorie/Block-Notes-personalizzati-a-più-colori.html">Block notes</a></li>
                         </ul>
                         <div class="provaFooter"><p>Copyright © 2010 - 2018</p></div>

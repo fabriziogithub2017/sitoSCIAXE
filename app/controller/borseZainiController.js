@@ -26,38 +26,24 @@
         'prezzo': 'da € 5,90 cad. +iva'
     },
     {
-        'titolo': 'Borsone', 'imgSrc': '../../jmg/jmgZainiBorse/borsone-sport.jpg', 'imgAlt': 'Borsone sport',
-        'caratteristiche': [
-            'per sport e viaggio',
-            'apertura superiore con doppio cursore',
-            'tasca laterale',
-            'tiralampo in tessuto',
-            'tracolla regolabile con salvaspalle',
-            'misure:cm 56x31x28 ca',
-            'materiale: 100 % nylon 600D',
-            'stampa a 1 colore su un lato']
-    },
-    {
         'titolo': 'Borsa porta documenti', 'imgSrc': '../../jmg/jmgZainiBorse/cartella-porta-documenti-personalizzata.jpg', 'imgAlt': 'Borsa porta documenti',
         'caratteristiche': [
             '1 scomparto',
             'misure: cm 39x30 ca',
             'materiale: 100 % nylon 600D',
-            'stampa a 1 colore su un lato']
+            'stampa a 1 colore su un lato'],
+        'prezzo': 'da € 1,60 cad. +iva'
     },
     {
-        'titolo': 'Sacca', 'imgSrc': '../../jmg/jmgZainiBorse/sacche.jpg', 'imgAlt': 'Sacche',
+        'titolo': 'Sacca', 'imgSrc': '../../jmg/jmgZainiBorse/sacche-personalizzate.jpg', 'imgAlt': 'Sacche personalizzate a 1 colore',
         'caratteristiche': [
             'doppia corda di chiusura',
             'misura:cm 33x45 ca ',
             'materiale: 100 % nylon 210D',
-            'stampa a 1 colore su un lato']
+            'stampa a 1 colore su un lato'],
+        'prezzo': 'da € 0,85 cad. +iva'
     },
 
-
-
     ]
-
-
 
 })

@@ -16,67 +16,21 @@
     }
 
     vm.categoria = [{
-        'titolo': 'Agenda Giornaliera', 'imgSrc': '../../jmg/jmgAgende/agenda-giornaliera-2019.jpg', 'imgAlt': 'Agenda giornaliera 2019',
+        'titolo': 'Agenda 2019 giornaliera', 'imgSrc': '../../jmg/jmgAgende/agenda-2019-giornaliera-21x15.jpg', 'imgAlt': 'Agenda giornaliera 2019 personalizzata sulla copertina',
         'caratteristiche': [
-            'F.to agenda cm 15x21 ca',
+            'F.to agenda cm 15x21',
             'carta bianca ',
+            'a righe',
             'edizione multilingue: IT – GB – FR – DE – ES – PT',
             'inserti informativi e rubrica telefonica',
             'inserto cartina geografica',
             'angolo segnapagine perforato ',
             'laccetto segnapagine ',
             '8 colori disponibili',
-            'materiale poliuretano termovirante ']
+            'materiale poliuretano termovirante'],
+        'prezzo': 'da € 2,90 cad. +iva'
     },
-    {
-        'titolo': 'Agenda Giornaliera', 'imgSrc': '../../jmg/jmgAgende/agenda-giornaliera-2019.jpg', 'imgAlt': 'Agenda giornaliera 2019',
-        'caratteristiche': [
-            'F.to agenda cm 15x21 ca',
-            'carta bianca ',
-            'edizione multilingue: IT – GB – FR – DE – ES – PT',
-            'inserti informativi e rubrica telefonica',
-            'inserto cartina geografica',
-            'angolo segnapagine perforato ',
-            'laccetto segnapagine ',
-            '8 colori disponibili',
-            'materiale poliuretano termovirante ']
-    },
-    {
-        'titolo': 'Agenda Giornaliera', 'imgSrc': '../../jmg/jmgAgende/agenda-giornaliera-2019.jpg', 'imgAlt': 'Agenda giornaliera 2019',
-        'caratteristiche': [
-            'F.to agenda cm 15x21 ca',
-            'carta bianca ',
-            'edizione multilingue: IT – GB – FR – DE – ES – PT',
-            'inserti informativi e rubrica telefonica',
-            'inserto cartina geografica',
-            'angolo segnapagine perforato ',
-            'laccetto segnapagine ',
-            '8 colori disponibili',
-            'materiale poliuretano termovirante ']
-    },
-    {
-        'titolo': 'Agenda Giornaliera', 'imgSrc': '../../jmg/jmgAgende/agenda-giornaliera-2019.jpg', 'imgAlt': 'Agenda giornaliera 2019',
-        'caratteristiche': [
-            'F.to agenda cm 15x21 ca',
-            'carta bianca ',
-            'edizione multilingue: IT – GB – FR – DE – ES – PT',
-            'inserti informativi e rubrica telefonica',
-            'inserto cartina geografica',
-            'angolo segnapagine perforato ',
-            'laccetto segnapagine ',
-            '8 colori disponibili',
-            'materiale poliuretano termovirante ']
-    },
-
-
-
-
-
-
-
-
+    
     ]
-
-
-
+    
 })

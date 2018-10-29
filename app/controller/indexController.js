@@ -69,7 +69,7 @@
             'ahref': '../Categorie/Penne-personalizzate.html',
             'imgSrc': '../../jmg/immaginiVetrina/Penne-personalizzate-a-1-colore.jpg', 'imgAlt': 'penna a biro personalizzata a 1 colore',
             'prezzoVetrina': 'da € 0,30',
-            'titolo': 'Penna a biro personalizzata',
+            'titolo': 'Penna a sfera personalizzata',
             'descrizione': 'Descrizione: Penna biro con stampa a 1 colore - Refil nero'
         },
 
@@ -90,7 +90,7 @@
         },
 
         {
-            'ahref': '../Categorie/Gadget-personalizzati.html',
+            'ahref': '../Categorie/Portachiavi-personalizzati.html',
             'imgSrc': '../../jmg/immaginiVetrina/portachiavi.jpg', 'imgAlt': 'porta chiavi personalizzati',
             'prezzoVetrina': 'da € 1,90',
             'titolo': 'Portachiavi in alluminio',
@@ -98,7 +98,7 @@
         },
 
         {
-            'ahref': '../Categorie/Gadget-personalizzati.html',
+            'ahref': '../Categorie/Braccialetti-personalizzati.html',
             'imgSrc': '../../jmg/immaginiVetrina/bracciali-in-silicone.jpg', 'imgAlt': 'braccialetti in silicone personalizzati',
             'prezzoVetrina': 'da € 0,66',
             'titolo': 'Braccialetti in silicone',
@@ -110,7 +110,7 @@
             'imgSrc': '../../jmg/immaginiVetrina/lanyards-personalizzati.jpg', 'imgAlt': 'Lanyards personalizzati con logo fronte e retro',
             'prezzoVetrina': 'da € 0,60',
             'titolo': 'Lanyards personalizzati',
-            'descrizione': 'Lanyards personalizzato con il tuo logo aziendale stampato sia all interno che all esterno - Altezza 2 cm.'
+            'descrizione': 'Lanyards personalizzato con il tuo logo aziendale stampato interno / esterno - Misura: 2 x 45-50 cm.'
         },
 
         {
@@ -122,7 +122,7 @@
         },
 
         {
-            'ahref': '../Categorie/Gadget-personalizzati.html',
+            'ahref': '../Categorie/Braccialetti-personalizzati.html',
             'imgSrc': '../../jmg/immaginiVetrina/bracciali-in-silicone-in-rilievo.jpg', 'imgAlt': 'braccialetti in silicone personalizzati in rilievo con lo stesso colore',
             'prezzoVetrina': 'da € 0,78',
             'titolo': 'Braccialetti in silicone',
@@ -130,7 +130,7 @@
         },
 
         {
-            'ahref': '../Categorie/Gadget-personalizzati.html',
+            'ahref': '../Categorie/Braccialetti-personalizzati.html',
             'imgSrc': '../../jmg/immaginiVetrina/bracciali-in-silicone-incisi.jpg', 'imgAlt': 'braccialetti in silicone personalizzati incisi con lo stesso colore',
             'prezzoVetrina': 'da € 0,75',
             'titolo': 'Braccialetti in silicone',

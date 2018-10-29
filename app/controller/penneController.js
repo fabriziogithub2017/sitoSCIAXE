@@ -16,23 +16,17 @@
     }
 
     vm.categoria = [{
-        'titolo': 'Penne biro', 'imgSrc': '../../jmg/jmgPenne/penne-personalizzate.jpg', 'imgAlt': 'Portachiavi incisi a laser',
+        'titolo': 'Penne personalizzate', 'imgSrc': '../../jmg/jmgPenne/penne-personalizzate.jpg', 'imgAlt': 'Penne biro personalizzate a 1 colore',
         'caratteristiche': [
-            'Portachiavi in alluminio',
-            'incisione personalizzata a laser ',
-            'Dimensioni:2,6 x 9 x 0,5 cm.',
-            'Peso: solo 16 gr',]
+            'penna a sfera',
+            'meccanismo a scatto',
+            'corpo in plastica colorato',
+            'particolari in metallo',
+            'Dimensioni:Ø cm 1 x h14 cm.',
+            'inchiostro nero'],
+        'prezzo': 'da € 0,30 cad. +iva'
     },
-        {
-            'titolo': 'Penne con puntale touch', 'imgSrc': '../../jmg/jmgPenne/penne-touch-personalizzate.jpg', 'imgAlt': 'Portachiavi incisi a laser',
-            'caratteristiche': [
-                'Portachiavi in alluminio',
-                'Personalizzato a colori ',
-                'Resinatura sul logo ',
-                'Dimensioni:2,6 x 9 x 0,5 cm.',
-                'Peso: solo 20 gr',]
-        }
-        
+               
 
     ]
 
