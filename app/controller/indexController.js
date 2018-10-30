@@ -18,6 +18,14 @@
         },
 
         {
+            'ahref': '../Categorie/Agende-2019-personalizzate.html',
+            'imgSrc': '../../jmg/immaginiVetrina/AGENDINA-giornaliera.jpg', 'imgAlt': 'agendina giornaliera f.to 9 x 15',
+            'prezzoVetrina': 'da € 3,50',
+            'titolo': 'Agendina giornaliera 2019',
+            'descrizione': 'Agendina giornaliera personalizzata a 1 colore, Sabato e Domenica abbinati, chiusura con elastico'
+        },
+
+        {
             'ahref': '../Categorie/Shopper-personalizzati.html',
             'imgSrc': '../../jmg/immaginiVetrina/shopper cotone.jpg', 'imgAlt': 'shopper in cotone personalizzati',
             'prezzoVetrina': 'da € 0,90',
@@ -27,7 +35,7 @@
 
         {
             'ahref': '../Categorie/Calendari-2019-personalizzati.html',
-            'imgSrc': '../../jmg/immaginiVetrina/calendario olandese a colori.jpg', 'imgAlt': 'gilet classe 2',
+            'imgSrc': '../../jmg/immaginiVetrina/calendario olandese a colori.jpg', 'imgAlt': 'calendario olandese a colori personalizzato',
             'prezzoVetrina': 'da € 0,70',
             'titolo': 'Calendario tipo olandese a colori',
             'descrizione': 'Descrizione: Calendario mensile tipo olandese a colori, 12 pagine, F.to cm 29 x 47 cm., Area di stampa: 28 x 8 cm'
@@ -42,11 +50,27 @@
         },
 
         {
+            'ahref': '../Categorie/Calendari-2019-personalizzati.html',
+            'imgSrc': '../../jmg/immaginiVetrina/calendario-olandese.jpg', 'imgAlt': 'calendario olandese personalizzato',
+            'prezzoVetrina': 'da € 0,650',
+            'titolo': 'Calendario tipo olandese',
+            'descrizione': 'Calendario mensile tipo olandese, 12 pagine, F.to cm 29 x 47 cm., Area di stampa: 28 x 8 cm., rossi, blu o verdi'
+        },
+
+        {
             'ahref': '../Categorie/Borse-Zaini-personalizzati.html',
             'imgSrc': '../../jmg/immaginiVetrina/sacche economiche.jpg', 'imgAlt': 'sacche personalizzate',
             'prezzoVetrina': 'da € 0,85',
             'titolo': 'Sacca in nylon',
             'descrizione': 'Dimensione cm 33x45 ca, doppia corda di chiusura, stampa a 1 colore su un lato'
+        },
+
+        {
+            'ahref': '../Categorie/Calendari-2019-personalizzati.html',
+            'imgSrc': '../../jmg/immaginiVetrina/calendario-olandese-slim-a-colori.jpg', 'imgAlt': 'calendario olandese a colori slim',
+            'prezzoVetrina': 'da € 0,60',
+            'titolo': 'Calendario olandese a colori slim',
+            'descrizione': 'Calendario mensile tipo olandese a colori, 12 pagine, F.to cm 14 x 47 cm., Area di stampa: 14 x 8 cm'
         },
 
         {
@@ -71,6 +95,14 @@
             'prezzoVetrina': 'da € 0,30',
             'titolo': 'Penna a sfera personalizzata',
             'descrizione': 'Descrizione: Penna biro con stampa a 1 colore - Refil nero'
+        },
+
+        {
+            'ahref': '../Categorie/Agende-2019-personalizzate.html',
+            'imgSrc': '../../jmg/immaginiVetrina/notes-a-righe.jpg', 'imgAlt': 'notes a rghe f.to 9 x 14',
+            'prezzoVetrina': 'da € 1,50',
+            'titolo': 'Notes a righe',
+            'descrizione': 'Notes a righe personalizzata a 1 colore, chiusura con elastico'
         },
 
         {
