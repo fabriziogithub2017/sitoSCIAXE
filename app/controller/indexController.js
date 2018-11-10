@@ -42,7 +42,7 @@
         },
 
         {
-            'ahref': '../Categorie/Abbigliamento-aziendale-da-lavoro.html',
+            'ahref': '../Categorie/Abbigliamento-da-lavoro.html',
             'imgSrc': '../../jmg/immaginiVetrina/gilet classe2.jpg', 'imgAlt': 'gilet classe 2',
             'prezzoVetrina': 'da € 4,50',
             'titolo': 'Gilet alta visibilità classe 2',
@@ -106,7 +106,7 @@
         },
 
         {
-            'ahref': '../Categorie/Abbigliamento-aziendale-da-lavoro.html',
+            'ahref': '../Categorie/Abbigliamento-da-lavoro.html',
             'imgSrc': '../../jmg/immaginiVetrina/giubbotto-da-lavoro.jpg', 'imgAlt': 'giubbotto da lavoro con maniche staccabili',
             'prezzoVetrina': 'da € 25',
             'titolo': 'Giubbotto con maniche staccabili',
