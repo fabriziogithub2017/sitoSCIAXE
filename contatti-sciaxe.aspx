@@ -5,6 +5,7 @@
 <head runat="server">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Come contattarci - Sciax'è</title>
+ <link rel="icon" type="image/png" href="jmg/favicon.png"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Ci puoi contattare tramite telefono, email o form" />
