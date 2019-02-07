@@ -31,16 +31,19 @@ public partial class MandaEmailContatti : System.Web.UI.Page
             try
             {
                 mail2 = (ClienteMail.Substring((ClienteMail.IndexOf(".") + 1), 1) != "");
-                    }
+            }
             catch (Exception ex2)
             {
                 //Response.Redirect("Messaggio non inviato.html");
             }
-            if (ClienteMail.Contains("@")&& ClienteMail.Contains(".")&& ClienteMail.IndexOf("@")>0&&ClienteMail.IndexOf(".") >(1+ ClienteMail.IndexOf("@"))&& mail2)
+            if (ClienteMail.Contains("@") && ClienteMail.IndexOf("@") > 0 && mail2)
             {
-                MAIL = true;
+                if (ClienteMail.IndexOf(".") == ClienteMail.LastIndexOf(".") && (ClienteMail.IndexOf(".") > (ClienteMail.IndexOf("@"))))
+                    MAIL = true;
+                else if (ClienteMail.IndexOf(".") < ClienteMail.LastIndexOf(".") && ClienteMail.IndexOf(".") + 1 < ClienteMail.IndexOf("@") && ClienteMail.LastIndexOf(".") > ClienteMail.IndexOf("@") + 1)
+                    MAIL = true;
             }
-            if (Nome.Contains("") && MAIL && Oggetto.Contains("") && Email.Contains ("") && CheckBox1.Checked)
+            if (!string.IsNullOrEmpty(Nome) && MAIL && !string.IsNullOrEmpty(Oggetto) && !string.IsNullOrEmpty(Email) && CheckBox1.Checked)
             {
                 NetworkCredential credentials = new NetworkCredential("info@sciaxe.it", "832350f394");
                 SmtpClient client = new SmtpClient();
