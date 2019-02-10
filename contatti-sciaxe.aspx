@@ -139,8 +139,8 @@
             <div class="shadow1 col-md-12">
                 <h1>Sciax'è - Contatti</h1>
                 <p class="lead">
-                    Sciax'è snc - Strada del Portone 10 - 10095 Grugliasco (TO) - ITALIA  (presso il CAAT)
-                    Tel. e Fax  011. 397 53 98  info@sciaxe.it
+                    La <b>Sciax'è snc</b> si trova in <b>Strada del Portone 10</b> a <b>Grugliasco</b> 10095 (TO) ITALIA presso la struttra del <b>CAAT</b>
+                    Per informazioni telefono e fax 011.3975398 o info@sciaxe.it
                 </p>
             </div>
         </div>
