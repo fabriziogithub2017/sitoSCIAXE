@@ -123,7 +123,7 @@
                                 <li><a href="Categorie/Penne-personalizzate.html">Penne</a></li>
                                 <li><a href="Categorie/Gadget-personalizzati.html">Gadget</a></li>
                                 <li><a href="Categorie/Shopper-personalizzati.html">Shopper</a></li>
-                                <li><a href="Categorie/Block-Notes-personalizzati-a-più-colori.html">Block notes</a></li>
+                                <li><a href="Categorie/Block-Notes-personalizzati-a-colori.html">Block notes</a></li>
                                 <li><a href="Categorie/Timbri-datari.html">Timbri</a></li>
                             </ul>
                         </li>
@@ -207,7 +207,7 @@
                             <li><a href="Categorie/Penne-personalizzate.html">Penne</a></li>
                             <li><a href="Categorie/Gadget-personalizzati.html">Gadget</a></li>
                             <li><a href="Categorie/Shopper-personalizzati.html">Shopper</a></li>
-                            <li><a href="Categorie/Block-Notes-personalizzati-a-più-colori.html">Block notes</a></li>
+                            <li><a href="Categorie/Block-Notes-personalizzati-a-colori.html">Block notes</a></li>
                             <li><a href="Categorie/Timbri-datari.html">Timbri</a></li>
                         </ul>
                         <div class="provaFooter">
