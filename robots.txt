@@ -1,7 +1,4 @@
 User-agent: *
-Disallow: /app
-Disallow: /js
-Disallow: /fonts
-Disallow: /css
+Disallow:
 Sitemap: https://sciaxe.it/sitemap.xml
 
