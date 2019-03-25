@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /errore-404.html
-Sitemap: https://sciaxe.it/sitemap.xml
+Sitemap: https://www.sciaxe.it/sitemap.xml
 
