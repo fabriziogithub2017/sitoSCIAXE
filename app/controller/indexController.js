@@ -10,19 +10,19 @@
 
     vm.HomePage = [
         {
-            'ahref': '../Categorie/Timbri-datari.html',
-            'imgSrc': '../../jmg/immaginiVetrina/Timbro-autoinchiostrato.jpg', 'imgAlt': 'Timbro autoinchiostrato',
-            'prezzoVetrina': 'da € 13,00',
-            'titolo': 'Timbro autoinchiostrato Trodat 4913',
-            'descrizione': 'Timbro autoinchiostrato Trodat 4913, composto da 4/5 righe con tampone nero. A richiesta tampone blu, rosso, verde.'
+            'ahref': '../Categorie/magliette-personalizzate.html',
+            'imgSrc': '../../jmg/immaginiVetrina/maglietta cotone bianca.jpg', 'imgAlt': 'maglietta cotone bianca personalizzata a 1 colore',
+            'prezzoVetrina': 'da € 2,30',
+            'titolo': 'Maglietta bianca personalizzata',
+            'descrizione': 'Maglietta bianca adulto / bambino 135 gr. in cotone 100%, girocollo a costina rinforzata, stampa a 1 colore da un lato'
         },
 
         {
-            'ahref': '../Categorie/Agende-2019-personalizzate.html',
-            'imgSrc': '../../jmg/immaginiVetrina/AGENDINA-giornaliera.jpg', 'imgAlt': 'agendina giornaliera f.to 9 x 15',
-            'prezzoVetrina': 'da € 3,50',
-            'titolo': 'Agendina giornaliera 2019',
-            'descrizione': 'Agendina giornaliera personalizzata a 1 colore, Sabato e Domenica abbinati, chiusura con elastico'
+            'ahref': '../Categorie/magliette-personalizzate.html',
+            'imgSrc': '../../jmg/immaginiVetrina/maglietta cotone colorate.jpg', 'imgAlt': 'maglietta cotone colorata personalizzata a 1 colore',
+            'prezzoVetrina': 'da € 2,70',
+            'titolo': 'Maglietta colorata personalizzata',
+            'descrizione': 'Adulto / bambino 140 gr. in cotone 100%, 10 colori a scelta, girocollo a costina rinforzata, stampa a 1 colore da un lato'
         },
 
         {
@@ -39,6 +39,14 @@
             'prezzoVetrina': 'da € 0,70',
             'titolo': 'Calendario tipo olandese a colori',
             'descrizione': 'Descrizione: Calendario mensile tipo olandese a colori, 12 pagine, F.to cm 29 x 47 cm., Area di stampa: 28 x 8 cm'
+        },
+
+        {
+            'ahref': '../Categorie/Timbri-datari.html',
+            'imgSrc': '../../jmg/immaginiVetrina/Timbro-autoinchiostrato.jpg', 'imgAlt': 'Timbro autoinchiostrato',
+            'prezzoVetrina': 'da € 13,00',
+            'titolo': 'Timbro autoinchiostrato Trodat 4913',
+            'descrizione': 'Timbro autoinchiostrato Trodat 4913, composto da 4/5 righe con tampone nero. A richiesta tampone blu, rosso, verde.'
         },
 
         {
@@ -168,7 +176,15 @@
             'titolo': 'Braccialetti in silicone',
             'descrizione': 'Braccialetti in silicone a più colori, personalizzati con incisione con lo stesso colore del braccialetto'
 
-        }        
+        },
+
+        {
+            'ahref': '../Categorie/Agende-2019-personalizzate.html',
+            'imgSrc': '../../jmg/immaginiVetrina/AGENDINA-giornaliera.jpg', 'imgAlt': 'agendina giornaliera f.to 9 x 15',
+            'prezzoVetrina': 'da € 3,50',
+            'titolo': 'Agendina giornaliera 2019',
+            'descrizione': 'Agendina giornaliera personalizzata a 1 colore, Sabato e Domenica abbinati, chiusura con elastico'
+        }
 
     ]
     
