@@ -9,7 +9,7 @@ var tcolortesto = '#ffcc00';         // colore del font
 var tSpeed=3;                        // scroll speed (1 = slow, 5 = fast)
 
 // var content è dove si mette il testo con effetto scorrevole
-var content ='&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Promozioni &nbsp; fino &nbsp; al &nbsp;  30 &nbsp; Aprile &nbsp; 2019 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;';
+var content ='&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Promozioni &nbsp; fino &nbsp; al &nbsp;  30 &nbsp; Giugno &nbsp; 2019 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;';
 
 var cps = tSpeed;
 var aw, mq;
